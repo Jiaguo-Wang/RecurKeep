@@ -1,0 +1,33 @@
+{
+  "source_sha256": {
+    "artifacts/frozen_cpu_snapshots/historical_policy_results.csv": "b1ede2f31ab455dd9f461f3bb98d9fce9197c6571946e3bfb4ac037d29adfcb2",
+    "archives/frozen_cpu_snapshots.tar.gz::frozen_cpu_snapshots/historical_policy_results.csv": "195b2ed1bbde3609a95209da8d7d4cff326b7e56185e3698667fb5054ee054f9",
+    "validation/recurkeep_rename/cpu_comparison.csv": "9c9dc52ecf6f138db46b2e61b8da698a17184dd06a6f09a31e61590ee9fccba4",
+    "artifacts/frozen_cpu_snapshots/w1.json": "0cf1f887c6b3c621953cf215a388c46f4e8a3533a91c2b50cceeb995cf40c682",
+    "artifacts/frozen_cpu_snapshots/w2.json": "cafdd29a61be184b0a9f3ccb283b29630d383e3d1ac2ba471aeba49f34e7777b",
+    "artifacts/frozen_cpu_snapshots/w3.json": "22d0ac29666c2f4d5a9201ccf8dd312e8d3fd148fe145835a3b4e88dbc3ea8b0",
+    "artifacts/frozen_cpu_snapshots/w4.json": "c02eb48e2e103dbb25fde912991b11fb28a4ed11677fac6b94d49b726e94aa83",
+    "artifacts/frozen_cpu_snapshots/b5c4.json": "47a0d0c010c86c542fc3cd72bc2553e941d782d35724b0a7a4b0f358d3a0b77f",
+    "artifacts/frozen_cpu_snapshots/ck3.json": "5226f44b3a021e74ce11fa8ff14a4301dde2ac85ad9fba7b1dc3c314a0a50e74",
+    "recurkeep/profiles/replay_cost.csv": "82a6b1e2367a40353a30ec40b9ca641db39104810aa7c5e14d6b7a218aa5235a",
+    "recurkeep/profiles/fit_metrics.json": "1d823fa67d8a6f563c912ef748f23159ba40abea3ae75d2740c9a926084aea69",
+    "archives/runtime_reference.tar.gz::runtime_reference/evaluation/serving_control_gpu_gate_20261102/correctness_evidence.json": "6f62dc52e26e960b277de195a4acb02f9231ba954b54303028577958d8f864bf"
+  },
+  "output_rows": {
+    "gpu_recovery": 6,
+    "recovery_frontiers": 820,
+    "cost_model": 6,
+    "checkpoint_allocation": 203,
+    "solver_quality": 203,
+    "solver_runtime": 343,
+    "runtime_validation": 39
+  },
+  "checks": [
+    "historical non-timing fields match archive",
+    "per-pending costs sum to J",
+    "T-E=G",
+    "historical gaps match Exact",
+    "selected counts respect current budgets"
+  ],
+  "scope": "Exported existing evidence only; no new CPU/GPU experiment runs."
+}

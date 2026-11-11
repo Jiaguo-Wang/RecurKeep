@@ -1,0 +1,11 @@
+Processing /tmp/recurstate_release_build/RECURSTATE
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Building wheels for collected packages: UNKNOWN
+  Building wheel for UNKNOWN (pyproject.toml): started
+  Building wheel for UNKNOWN (pyproject.toml): finished with status 'done'
+  Created wheel for UNKNOWN: filename=UNKNOWN-0.0.0-py3-none-any.whl size=961 sha256=2589cc10e3b5cebdd5d7d12e543ffdad98c7afd80b87f45d472676185454b323
+  Stored in directory: /tmp/pip-ephem-wheel-cache-t5lkukvg/wheels/83/64/c8/cf8d2d142e4f19e85355433b4096db57928eff6554fc88ec5b
+Successfully built UNKNOWN
+Installing collected packages: UNKNOWN
+Successfully installed UNKNOWN-0.0.0

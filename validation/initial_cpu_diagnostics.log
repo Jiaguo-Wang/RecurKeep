@@ -1,0 +1,170 @@
+test_bad_budgets_rejected (tests.test_release_contract.ReleaseContractTests) ... ok
+test_corrupt_archive_hash_rejected (tests.test_release_contract.ReleaseContractTests) ... ok
+test_corrupt_tokens_rejected (tests.test_release_contract.ReleaseContractTests) ... ERROR
+test_duplicate_candidate_rejected (tests.test_release_contract.ReleaseContractTests) ... ERROR
+test_epoch_identity_rejected (tests.test_release_contract.ReleaseContractTests) ... ok
+test_exact_domain (tests.test_release_contract.ReleaseContractTests) ... ok
+test_exact_error_never_falls_back (tests.test_release_contract.ReleaseContractTests) ... ok
+test_missing_components_rejected (tests.test_release_contract.ReleaseContractTests) ... ERROR
+test_missing_pair_rejected (tests.test_release_contract.ReleaseContractTests) ... ERROR
+test_model_boundary_and_monotonic_domain (tests.test_release_contract.ReleaseContractTests) ... ok
+test_plan_wrong_budget_rejected (tests.test_release_contract.ReleaseContractTests) ... ok
+test_strict20_and_ck3_reference (tests.test_release_contract.ReleaseContractTests) ... /tmp/recurstate_release_build/RECURSTATE/tests/test_release_contract.py:34: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/recurstate_release_build/RECURSTATE/artifacts/frozen_cpu_snapshots/solver_dispatch_cpu_recheck.csv' mode='r' encoding='UTF-8'>
+  references={(r['condition'].lower().replace('b5-c4','b5c4').replace('c/k3','ck3'),int(r['K'])):r
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+ok
+test_unequal_cost_rejected (tests.test_release_contract.ReleaseContractTests) ... ERROR
+test_unknown_rejected (tests.test_release_contract.ReleaseContractTests) ... ERROR
+test_accounting (tests.test_strict_control.StrictControlTests) ... ok
+test_active (tests.test_strict_control.StrictControlTests) ... ok
+test_admission (tests.test_strict_control.StrictControlTests) ... ok
+test_budget (tests.test_strict_control.StrictControlTests) ... ok
+test_component_alias (tests.test_strict_control.StrictControlTests) ... ok
+test_empty_slot (tests.test_strict_control.StrictControlTests) ... ok
+test_engine_identity_changed (tests.test_strict_control.StrictControlTests) ... ok
+test_epoch_digest (tests.test_strict_control.StrictControlTests) ... ok
+test_evicted_protected (tests.test_strict_control.StrictControlTests) ... ok
+test_fa_corruption (tests.test_strict_control.StrictControlTests) ... ok
+test_failed_operation_may_have_mutated (tests.test_strict_control.StrictControlTests) ... ok
+test_host_copy (tests.test_strict_control.StrictControlTests) ... ok
+test_incomplete_components (tests.test_strict_control.StrictControlTests) ... ok
+test_midflight_change (tests.test_strict_control.StrictControlTests) ... ok
+test_node_alias (tests.test_strict_control.StrictControlTests) ... ok
+test_partial_failure (tests.test_strict_control.StrictControlTests) ... ok
+test_reference (tests.test_strict_control.StrictControlTests) ... ok
+test_selected_damaged_by_broken_primitive (tests.test_strict_control.StrictControlTests) ... ok
+test_selected_exceeds_budget (tests.test_strict_control.StrictControlTests) ... ok
+test_selected_missing (tests.test_strict_control.StrictControlTests) ... ok
+test_selected_outside (tests.test_strict_control.StrictControlTests) ... ok
+test_silent_noop (tests.test_strict_control.StrictControlTests) ... ok
+test_slot_alias (tests.test_strict_control.StrictControlTests) ... ok
+test_stale_view (tests.test_strict_control.StrictControlTests) ... ok
+test_success_shared_ancestor_and_branches (tests.test_strict_control.StrictControlTests) ... ok
+test_transfer (tests.test_strict_control.StrictControlTests) ... ok
+test_unmanaged (tests.test_strict_control.StrictControlTests) ... ok
+test_wrong_complement (tests.test_strict_control.StrictControlTests) ... ok
+
+======================================================================
+ERROR: test_corrupt_tokens_rejected (tests.test_release_contract.ReleaseContractTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/recurstate_release_build/RECURSTATE/tests/test_release_contract.py", line 62, in test_corrupt_tokens_rejected
+    with self.assertRaises(ValueError):reseal(self.epoch,candidates=(candidate,)+self.epoch.candidates[1:])
+  File "/tmp/recurstate_release_build/RECURSTATE/tests/test_release_contract.py", line 23, in reseal
+    return replace(epoch,**changes,content_digest=_digest(payload))
+  File "/tmp/recurstate_release_build/RECURSTATE/recurstate/strict_epoch.py", line 13, in _digest
+    return hashlib.sha256(json.dumps(value, sort_keys=True, ensure_ascii=False).encode()).hexdigest()
+  File "/usr/lib/python3.10/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/usr/lib/python3.10/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.10/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/usr/lib/python3.10/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type StrictCandidate is not JSON serializable
+
+======================================================================
+ERROR: test_duplicate_candidate_rejected (tests.test_release_contract.ReleaseContractTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/recurstate_release_build/RECURSTATE/tests/test_release_contract.py", line 58, in test_duplicate_candidate_rejected
+    with self.assertRaises(ValueError):reseal(self.epoch,candidates=self.epoch.candidates+(self.epoch.candidates[0],))
+  File "/tmp/recurstate_release_build/RECURSTATE/tests/test_release_contract.py", line 23, in reseal
+    return replace(epoch,**changes,content_digest=_digest(payload))
+  File "/tmp/recurstate_release_build/RECURSTATE/recurstate/strict_epoch.py", line 13, in _digest
+    return hashlib.sha256(json.dumps(value, sort_keys=True, ensure_ascii=False).encode()).hexdigest()
+  File "/usr/lib/python3.10/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/usr/lib/python3.10/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.10/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/usr/lib/python3.10/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type StrictCandidate is not JSON serializable
+
+======================================================================
+ERROR: test_missing_components_rejected (tests.test_release_contract.ReleaseContractTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/recurstate_release_build/RECURSTATE/tests/test_release_contract.py", line 67, in test_missing_components_rejected
+    with self.assertRaises(ValueError):reseal(self.epoch,candidates=(broken,)+self.epoch.candidates[1:])
+  File "/tmp/recurstate_release_build/RECURSTATE/tests/test_release_contract.py", line 23, in reseal
+    return replace(epoch,**changes,content_digest=_digest(payload))
+  File "/tmp/recurstate_release_build/RECURSTATE/recurstate/strict_epoch.py", line 13, in _digest
+    return hashlib.sha256(json.dumps(value, sort_keys=True, ensure_ascii=False).encode()).hexdigest()
+  File "/usr/lib/python3.10/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/usr/lib/python3.10/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.10/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/usr/lib/python3.10/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type StrictCandidate is not JSON serializable
+
+======================================================================
+ERROR: test_missing_pair_rejected (tests.test_release_contract.ReleaseContractTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/recurstate_release_build/RECURSTATE/tests/test_release_contract.py", line 55, in test_missing_pair_rejected
+    with self.assertRaises(ValueError):reseal(self.epoch,edges=self.epoch.edges[1:])
+  File "/tmp/recurstate_release_build/RECURSTATE/tests/test_release_contract.py", line 23, in reseal
+    return replace(epoch,**changes,content_digest=_digest(payload))
+  File "/tmp/recurstate_release_build/RECURSTATE/recurstate/strict_epoch.py", line 13, in _digest
+    return hashlib.sha256(json.dumps(value, sort_keys=True, ensure_ascii=False).encode()).hexdigest()
+  File "/usr/lib/python3.10/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/usr/lib/python3.10/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.10/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/usr/lib/python3.10/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type StrictEdge is not JSON serializable
+
+======================================================================
+ERROR: test_unequal_cost_rejected (tests.test_release_contract.ReleaseContractTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/recurstate_release_build/RECURSTATE/tests/test_release_contract.py", line 72, in test_unequal_cost_rejected
+    with self.assertRaises(ValueError):reseal(self.epoch,candidates=(broken,)+self.epoch.candidates[1:])
+  File "/tmp/recurstate_release_build/RECURSTATE/tests/test_release_contract.py", line 23, in reseal
+    return replace(epoch,**changes,content_digest=_digest(payload))
+  File "/tmp/recurstate_release_build/RECURSTATE/recurstate/strict_epoch.py", line 13, in _digest
+    return hashlib.sha256(json.dumps(value, sort_keys=True, ensure_ascii=False).encode()).hexdigest()
+  File "/usr/lib/python3.10/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/usr/lib/python3.10/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.10/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/usr/lib/python3.10/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type StrictCandidate is not JSON serializable
+
+======================================================================
+ERROR: test_unknown_rejected (tests.test_release_contract.ReleaseContractTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/recurstate_release_build/RECURSTATE/tests/test_release_contract.py", line 52, in test_unknown_rejected
+    with self.assertRaises(ValueError):reseal(self.epoch,edges=(edge,)+self.epoch.edges[1:])
+  File "/tmp/recurstate_release_build/RECURSTATE/tests/test_release_contract.py", line 23, in reseal
+    return replace(epoch,**changes,content_digest=_digest(payload))
+  File "/tmp/recurstate_release_build/RECURSTATE/recurstate/strict_epoch.py", line 13, in _digest
+    return hashlib.sha256(json.dumps(value, sort_keys=True, ensure_ascii=False).encode()).hexdigest()
+  File "/usr/lib/python3.10/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/usr/lib/python3.10/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.10/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/usr/lib/python3.10/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type StrictEdge is not JSON serializable
+
+----------------------------------------------------------------------
+Ran 42 tests in 10.217s
+
+FAILED (errors=6)

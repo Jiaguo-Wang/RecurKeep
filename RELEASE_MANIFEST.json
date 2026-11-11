@@ -1,0 +1,437 @@
+{
+  "name": "RecurKeep",
+  "date": "2026-11-10",
+  "scope": "当前独立发布副本；不包含清单自身和 Python 缓存。",
+  "files": [
+    {
+      "path": ".github/workflows/cpu.yml",
+      "bytes": 562,
+      "sha256": "16b68c451cc64be967a351f150a1a1d9d94cb625046ae9e987d618b4e0276844"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 136,
+      "sha256": "6e74bb32c876260c9a088b15a2ef9ebc6007d4bda77fc470cf4c46e30b9e7bcd"
+    },
+    {
+      "path": "BRANDING_CHANGE.md",
+      "bytes": 750,
+      "sha256": "bad3ca10388eb56ec27d856a1f0d33d95deb1388898df7cf9f03273cb7efaa8c"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "bytes": 4535,
+      "sha256": "8de7fc88a3e5eca2eeb83b9a977a336fa4877838d3e7a61f98df67a351ed4909"
+    },
+    {
+      "path": "LICENSE_NOTICE.md",
+      "bytes": 328,
+      "sha256": "035d00423a61fc539809fd7011f003d152512e3390b899e278d117407899a83b"
+    },
+    {
+      "path": "README.md",
+      "bytes": 7126,
+      "sha256": "16f70bbbefa19864bb76c6120cb4daf06fcb9eb525544631219167d60186bf7a"
+    },
+    {
+      "path": "README.zh-CN.md",
+      "bytes": 6425,
+      "sha256": "9acd924a55529f8df9ec631722f1ac6a6d1adef46f05955192db757488471caa"
+    },
+    {
+      "path": "RELEASE_CHECKS.json",
+      "bytes": 820,
+      "sha256": "287faa75679ffd0c08c0b6be49141bc93db946b01f6a9680c25924a8ad806000"
+    },
+    {
+      "path": "RELEASE_NOTES.md",
+      "bytes": 269,
+      "sha256": "984ccaaba88ca62553536514f702cc7a6a0c201522e95b2a35bb5d9d39ef61ae"
+    },
+    {
+      "path": "SOURCE_MANIFEST.json",
+      "bytes": 23298,
+      "sha256": "8cc8fa47fab1729ae9bf67b159500c0d09d68799f5098388a164e73569345a8b"
+    },
+    {
+      "path": "archives/frozen_cpu_snapshots.tar.gz",
+      "bytes": 737901,
+      "sha256": "aa483cc492f680b24d081393b12989d1f3da3f2d419791c03fb553a70bf13d11"
+    },
+    {
+      "path": "archives/runtime_reference.tar.gz",
+      "bytes": 1576858,
+      "sha256": "38f8dc3a8231deb53eec721d43bdc3c1cb98d7e686a9162f26cca8ef8eaad715"
+    },
+    {
+      "path": "artifacts/README.md",
+      "bytes": 1199,
+      "sha256": "b74fad1c884ea837d80115cd0e7c5c01798bcae1795a825e0d83b9ee58728ef4"
+    },
+    {
+      "path": "artifacts/README.zh-CN.md",
+      "bytes": 922,
+      "sha256": "273652d39b4300b876197e230daeda2274e4e86e4f8e5b9a83e6a0e75a7e81bb"
+    },
+    {
+      "path": "artifacts/cpu_source_manifest.json",
+      "bytes": 2484,
+      "sha256": "e73ef68b012cf5a47d879b9db8b2ac95f70c667caf9dcd22c53804c02164455f"
+    },
+    {
+      "path": "artifacts/frozen_cpu_snapshots/b5c4.json",
+      "bytes": 260606,
+      "sha256": "47a0d0c010c86c542fc3cd72bc2553e941d782d35724b0a7a4b0f358d3a0b77f"
+    },
+    {
+      "path": "artifacts/frozen_cpu_snapshots/b5c4_raw_snapshot.json",
+      "bytes": 629912,
+      "sha256": "3b41f232b4ee4d79aab081643c6c2adad1671d0364841617e849f52b6c16ac7a"
+    },
+    {
+      "path": "artifacts/frozen_cpu_snapshots/ck3.json",
+      "bytes": 705237,
+      "sha256": "5226f44b3a021e74ce11fa8ff14a4301dde2ac85ad9fba7b1dc3c314a0a50e74"
+    },
+    {
+      "path": "artifacts/frozen_cpu_snapshots/historical_policy_results.csv",
+      "bytes": 81765,
+      "sha256": "195b2ed1bbde3609a95209da8d7d4cff326b7e56185e3698667fb5054ee054f9"
+    },
+    {
+      "path": "artifacts/frozen_cpu_snapshots/manifest.json",
+      "bytes": 2740,
+      "sha256": "a12efac84fd223e5d5a9862d15f46513fb3871351c87226bfea05afa0e147c0d"
+    },
+    {
+      "path": "artifacts/frozen_cpu_snapshots/solver_dispatch_cpu_recheck.csv",
+      "bytes": 4252,
+      "sha256": "97a1aa6a095f1380cd8b12aa0e27289f2d99f76b4f46022a6252142ee405cc0e"
+    },
+    {
+      "path": "artifacts/frozen_cpu_snapshots/w1.json",
+      "bytes": 255599,
+      "sha256": "0cf1f887c6b3c621953cf215a388c46f4e8a3533a91c2b50cceeb995cf40c682"
+    },
+    {
+      "path": "artifacts/frozen_cpu_snapshots/w1_raw_snapshot.json",
+      "bytes": 617163,
+      "sha256": "970cd9680c9c7f79430c51e85d7657ed1644ae62557778c5b3a52f853754b246"
+    },
+    {
+      "path": "artifacts/frozen_cpu_snapshots/w2.json",
+      "bytes": 250377,
+      "sha256": "cafdd29a61be184b0a9f3ccb283b29630d383e3d1ac2ba471aeba49f34e7777b"
+    },
+    {
+      "path": "artifacts/frozen_cpu_snapshots/w2_raw_snapshot.json",
+      "bytes": 605231,
+      "sha256": "ec63f3c064c4808ac92618507256d9ed3ba6c5197ec1c3543d5b47dad7e1cff6"
+    },
+    {
+      "path": "artifacts/frozen_cpu_snapshots/w3.json",
+      "bytes": 247125,
+      "sha256": "22d0ac29666c2f4d5a9201ccf8dd312e8d3fd148fe145835a3b4e88dbc3ea8b0"
+    },
+    {
+      "path": "artifacts/frozen_cpu_snapshots/w3_raw_snapshot.json",
+      "bytes": 597131,
+      "sha256": "d4de3c0cce210e5afc61e135a07a694e2de6ce5e0becf7afb91c2228004b6eac"
+    },
+    {
+      "path": "artifacts/frozen_cpu_snapshots/w4.json",
+      "bytes": 270981,
+      "sha256": "c02eb48e2e103dbb25fde912991b11fb28a4ed11677fac6b94d49b726e94aa83"
+    },
+    {
+      "path": "artifacts/frozen_cpu_snapshots/w4_raw_snapshot.json",
+      "bytes": 655353,
+      "sha256": "a2013b190f6575acd5a90797bd61c865941d95fbcdd44b87f0d2bf93110b0f5c"
+    },
+    {
+      "path": "artifacts/runtime_source_manifest.json",
+      "bytes": 26244,
+      "sha256": "ceec0b52da6c5332c4c31ce591d2eb76362aad76541e121a5675e2ddbcd3724b"
+    },
+    {
+      "path": "docs/experiments.md",
+      "bytes": 6376,
+      "sha256": "5185cc70a92a4a82ecbbb73db1044de1d85b0f322525cd3ab3681147d28ac09f"
+    },
+    {
+      "path": "docs/experiments.zh-CN.md",
+      "bytes": 4728,
+      "sha256": "e6ae68bd552b7a8a0fb7089b8d99f0b32ccc81e7fdb7eee7fc992eb0d3bee25f"
+    },
+    {
+      "path": "docs/provenance.md",
+      "bytes": 4372,
+      "sha256": "9c327d788baf4929f9219691d5e445c9ca74dd949c94bb6870a95a352b9a42a1"
+    },
+    {
+      "path": "docs/runtime.md",
+      "bytes": 4275,
+      "sha256": "e448785e7b046d63d8ecabe6b5c876e19edced0cea4ec76142af951a6a26466b"
+    },
+    {
+      "path": "docs/runtime.zh-CN.md",
+      "bytes": 3108,
+      "sha256": "6a154b3bce402c92fbfd554dca3a57f3f1f11f2eebd336b9957657acbf47a6ec"
+    },
+    {
+      "path": "examples/data/README.md",
+      "bytes": 870,
+      "sha256": "504b47ff3f9fa090a9813afc1939524c2a051b8f7a2ccf6a02e03868111b206f"
+    },
+    {
+      "path": "examples/data/README.zh-CN.md",
+      "bytes": 755,
+      "sha256": "80ef8dc40f59c997e1fab6e32f126e78a6ccc97ecf7fe86d725caf1d6a698f7c"
+    },
+    {
+      "path": "examples/data/demo.json",
+      "bytes": 12676,
+      "sha256": "97d4855ddadd2926d6f41ee8822eb6fb1771b57ab492fb9d063ce9acf37b80d3"
+    },
+    {
+      "path": "examples/data/manifest.json",
+      "bytes": 402,
+      "sha256": "48f86b1e42d4a1af8f6a684f426cd9fd590f004b3a69b366a0b0a8909631b6b4"
+    },
+    {
+      "path": "examples/plan.py",
+      "bytes": 2039,
+      "sha256": "7055ab48a46ff14be8701b5ba8aa0db297521fe6ff4bcbaeb1aa95d3637da3a9"
+    },
+    {
+      "path": "experiments/__init__.py",
+      "bytes": 48,
+      "sha256": "25cbd75805621f063f28b0cf615c6f0f9fd64590b8d3a85d9304c5f2a0d763b4"
+    },
+    {
+      "path": "experiments/compare.py",
+      "bytes": 3904,
+      "sha256": "b61bff818e5070f96ec9d49ffa4eca6e715ca54f71e99ab19d3dc793619de39f"
+    },
+    {
+      "path": "experiments/epoch_io.py",
+      "bytes": 1608,
+      "sha256": "634e5be719db752efb5f8fcf717000f0d0a816f712427391954c48d2a52ab57d"
+    },
+    {
+      "path": "experiments/test_frozen_reference.py",
+      "bytes": 1790,
+      "sha256": "a10ae30e5d59ac8945bf1d93c96c337d82483f5a0add2276d0c2f8dbc1089a51"
+    },
+    {
+      "path": "motivation/artifacts/replay_cost_20260819/fit_metrics.json",
+      "bytes": 1038,
+      "sha256": "1d823fa67d8a6f563c912ef748f23159ba40abea3ae75d2740c9a926084aea69"
+    },
+    {
+      "path": "motivation/artifacts/replay_cost_20260819/replay_cost.csv",
+      "bytes": 1490,
+      "sha256": "82a6b1e2367a40353a30ec40b9ca641db39104810aa7c5e14d6b7a218aa5235a"
+    },
+    {
+      "path": "provenance/recurstate_delivery/RELEASE_CHECKS.json",
+      "bytes": 1642,
+      "sha256": "0aef38f5ad46ca7418eba50ec849c167ed800d9172e1db7cfae187ceefd1c845"
+    },
+    {
+      "path": "provenance/recurstate_delivery/RELEASE_MANIFEST.json",
+      "bytes": 11135,
+      "sha256": "d8a2e04122681caafc0f1f970fb7a7aa7541880e7dd5933b3242787331a9fc4b"
+    },
+    {
+      "path": "provenance/recurstate_delivery/RELEASE_NOTES.md",
+      "bytes": 952,
+      "sha256": "5fe85a16d62a2017d175258a39be8197510f7db675b3eb5705c80591abd46345"
+    },
+    {
+      "path": "provenance/recurstate_delivery/SOURCE_MANIFEST.json",
+      "bytes": 6846,
+      "sha256": "4f31993402ba72a4c34b5fa68f03ffbb852e1c4414b28e737673bc7885772d7b"
+    },
+    {
+      "path": "pyproject.toml",
+      "bytes": 143,
+      "sha256": "438f2a90dc5846154e322782582bd4968849ccf389a3c88ef8ed1747452d1b50"
+    },
+    {
+      "path": "recurkeep/__init__.py",
+      "bytes": 237,
+      "sha256": "e75890edb09aa8ef5702ef2375e2f872a9ef8b6f40e61d507d0fc696f75807f7"
+    },
+    {
+      "path": "recurkeep/adapters/__init__.py",
+      "bytes": 163,
+      "sha256": "99ebb091051b797d2ee305058dd576669b363cec2cb0e5b1038a3383c718734e"
+    },
+    {
+      "path": "recurkeep/adapters/sglang.py",
+      "bytes": 26254,
+      "sha256": "e42654fd7accb14889a089264356aa81e72f2b63e589391db9a68c0db2aea5b8"
+    },
+    {
+      "path": "recurkeep/controller.py",
+      "bytes": 5227,
+      "sha256": "6a1ccdd9dbbcd3d1948a8d0cb7692886ae4bc1f1c7c87b51ba3ca8dfa4bb42a1"
+    },
+    {
+      "path": "recurkeep/executable_state.py",
+      "bytes": 1038,
+      "sha256": "42fc42bd3eb9cd38af9d92cc1dbc10ce6d22cd9fca2e1af4e86dd135b2b62dc4"
+    },
+    {
+      "path": "recurkeep/optimizer.py",
+      "bytes": 11921,
+      "sha256": "7dfa9aec307d1178d79d79ced0b5d42b0f6574754194c58d84db300c74e48176"
+    },
+    {
+      "path": "recurkeep/profiles/fit_metrics.json",
+      "bytes": 1038,
+      "sha256": "1d823fa67d8a6f563c912ef748f23159ba40abea3ae75d2740c9a926084aea69"
+    },
+    {
+      "path": "recurkeep/profiles/replay_cost.csv",
+      "bytes": 1490,
+      "sha256": "82a6b1e2367a40353a30ec40b9ca641db39104810aa7c5e14d6b7a218aa5235a"
+    },
+    {
+      "path": "recurkeep/recovery_model.py",
+      "bytes": 9320,
+      "sha256": "1c8402cb4798e16ab573ed35e1860db2182ccdcb7bc8f86b6db9e74d3ef4396c"
+    },
+    {
+      "path": "recurkeep/state_catalog.py",
+      "bytes": 2063,
+      "sha256": "84cde9e81d6bbe1f602b65a266750de74bdb68cf04c28d348d790a5f27df6af7"
+    },
+    {
+      "path": "recurkeep/strict_control.py",
+      "bytes": 14029,
+      "sha256": "5ffeeaeef14606f3f1d280f41fa26a575b2f10c66ea5db28832939481a3ebab3"
+    },
+    {
+      "path": "recurkeep/strict_epoch.py",
+      "bytes": 9671,
+      "sha256": "5513f2703dd88e8f292c348baa07e198f30649c23c2df1a5699fe0066a1eb4a7"
+    },
+    {
+      "path": "recurkeep/workflow.py",
+      "bytes": 798,
+      "sha256": "978a9b164c8620054c1054ad1a5634b981bb5e36d2fda91a48e1208eaa4bed43"
+    },
+    {
+      "path": "results/cpu_comparison.csv",
+      "bytes": 12907,
+      "sha256": "e467010180319dba1131cc6721e648ad6cf083553770fa6f9a9fdd38becc4a2a"
+    },
+    {
+      "path": "setup.cfg",
+      "bytes": 496,
+      "sha256": "765ce9d16a5fa3b3a8e35b4a4c66b015f3f7e2ea171a2ca098cf9a7d3dbf6c8f"
+    },
+    {
+      "path": "setup.py",
+      "bytes": 121,
+      "sha256": "7852f83a1cb4ab199b73e65b3ec1b154874b967332fac57f35987324d2b17633"
+    },
+    {
+      "path": "tests/__init__.py",
+      "bytes": 43,
+      "sha256": "2a45669ece14b84aa3d4f0eb9b3435ff6d3ca9726dbef125b7c421bd14b1ea15"
+    },
+    {
+      "path": "tests/fixtures.py",
+      "bytes": 640,
+      "sha256": "48275ce8ccd36ea9b1446a5cbe67e827d90b351bd6dd7f84f039951cf389a19c"
+    },
+    {
+      "path": "tests/test_controller.py",
+      "bytes": 7255,
+      "sha256": "e87b7af4a74721c787f1ff81e4bf869782df495ad980fb3831f59216f55f3aee"
+    },
+    {
+      "path": "tests/test_data_model.py",
+      "bytes": 5291,
+      "sha256": "cd811a61fe3e84233c7ffe9df247bf4ae72f25db9cf68e49f7545cf6e6ff9ffc"
+    },
+    {
+      "path": "tests/test_executable_state.py",
+      "bytes": 4728,
+      "sha256": "6814e60616080e92082c565ab804c59a2611f2a36d3e2ad03f33adbedd18292f"
+    },
+    {
+      "path": "tests/test_multiworkflow_allocation.py",
+      "bytes": 7752,
+      "sha256": "87ab57ec7c55fa662245586f1d9741b9bdd3e80ca8e18a1590fd77e827b181f9"
+    },
+    {
+      "path": "tests/test_optimizer.py",
+      "bytes": 7619,
+      "sha256": "0b017dbc85859c70ab58d0c01d854e43a370bc0be34bf6ec80a3993e34f17ad9"
+    },
+    {
+      "path": "tests/test_recovery_model.py",
+      "bytes": 4398,
+      "sha256": "4622df8cbd712280896b2286b9ba0426a90b987d417ed9c9bdf986fe3545cfe8"
+    },
+    {
+      "path": "tests/test_release_contract.py",
+      "bytes": 4665,
+      "sha256": "2b9481427303fe39000ee98df51e1cb0dd5e7ee35bf5ba347f7e91c7dc0f109b"
+    },
+    {
+      "path": "tests/test_sglang_adapter.py",
+      "bytes": 16018,
+      "sha256": "6bd84e1b14c6dabbcccc42d0280344061eb5ac82f5e4e2b1f43951d9d7029496"
+    },
+    {
+      "path": "tests/test_strict_control.py",
+      "bytes": 10045,
+      "sha256": "7c98aa29d483237bfcca868fbcd3995934d5d15ae7f6ff05d175a6370b3e44b9"
+    },
+    {
+      "path": "tools/verify_release.py",
+      "bytes": 1089,
+      "sha256": "8a60547010b2fe419a649f9d4b17cdbbf07258d2c79f3819c465b96908b9525f"
+    },
+    {
+      "path": "validation/cpu_tests.log",
+      "bytes": 3874,
+      "sha256": "ffe50c5757cb8286a01fced2305ef27eab38d3bdc05f738d71ed67c4468ce3fe"
+    },
+    {
+      "path": "validation/example_plan.json",
+      "bytes": 1621,
+      "sha256": "8900cea5755f1407c2c8c4869ab96f7ded6de4f2cd89e81f7d2051683126eae6"
+    },
+    {
+      "path": "validation/initial_cpu_diagnostics.log",
+      "bytes": 12032,
+      "sha256": "b836cc19bbfe56be82521ac67b72871997cd5b187d1e4d57975b857ba6eb3053"
+    },
+    {
+      "path": "validation/initial_install_diagnostics.log",
+      "bytes": 723,
+      "sha256": "b3b1b616ae9f86273f4dc9a40902913937bc9bb47958b506702f0480056dcfc6"
+    },
+    {
+      "path": "validation/offline_install.log",
+      "bytes": 749,
+      "sha256": "2ba42bed89286926fed4a3fc9689d07636d80eb404de1c64a612b94b73c6218c"
+    },
+    {
+      "path": "validation/recurkeep_rename/cpu_comparison.csv",
+      "bytes": 12884,
+      "sha256": "9c9dc52ecf6f138db46b2e61b8da698a17184dd06a6f09a31e61590ee9fccba4"
+    },
+    {
+      "path": "validation/recurkeep_rename/cpu_comparison.log",
+      "bytes": 141,
+      "sha256": "4248113ba8d22ad8cf02d69617ad261b4b007e71e2e838dfbe3ed94939d8c40b"
+    }
+  ]
+}

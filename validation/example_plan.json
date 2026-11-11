@@ -1,0 +1,69 @@
+{
+  "solver": {
+    "solver": "Exact",
+    "gate_allowed": true,
+    "gate": {
+      "candidates": 7,
+      "pendings": 4,
+      "budget_k": 2,
+      "enumerable_subsets": 29
+    },
+    "selected_ids": [
+      "B5C3_NODE_18",
+      "B5C3_NODE_21"
+    ],
+    "objective_ms": 53.77075886917578,
+    "pure_solve_ms": 0.3964
+  },
+  "plan": {
+    "epoch_id": "b5c3-191-770617937432341",
+    "snapshot_sha256": "970cd9680c9c7f79430c51e85d7657ed1644ae62557778c5b3a52f853754b246",
+    "epoch_digest": "0444ef5f07e1a04fbed5a47551ffe4cebf5a7d1af6320621c314fe0c2ee791c6",
+    "K": 2,
+    "selected_ids": [
+      "B5C3_NODE_18",
+      "B5C3_NODE_21"
+    ],
+    "selected_count": 2,
+    "pending": [
+      {
+        "pending_id": "IMW1_A_TURN_003",
+        "T": 3648,
+        "E": 3392,
+        "G": 256,
+        "cost_ms": 9.755408101296874
+      },
+      {
+        "pending_id": "IMW1_B_TURN_003",
+        "T": 3712,
+        "E": 3392,
+        "G": 320,
+        "cost_ms": 12.197966615410156
+      },
+      {
+        "pending_id": "IMW1_C_TURN_003",
+        "T": 4096,
+        "E": 3712,
+        "G": 384,
+        "cost_ms": 14.682551569921875
+      },
+      {
+        "pending_id": "IMW1_D_TURN_003",
+        "T": 4160,
+        "E": 3712,
+        "G": 448,
+        "cost_ms": 17.134832582546874
+      }
+    ],
+    "recovery_cost_ms": 53.77075886917578,
+    "benefit_ms": 534.1790693459961,
+    "logical_eviction_ids": [
+      "B5C3_NODE_20",
+      "B5C3_NODE_22",
+      "B5C3_NODE_24",
+      "B5C3_NODE_25",
+      "B5C3_NODE_27"
+    ]
+  },
+  "说明": "仅冻结快照纯规划，不代表当前 GPU 驻留或实际恢复耗时"
+}

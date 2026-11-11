@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "date": "2026-11-10",
+  "project": "RecurKeep",
+  "python_package": "recurkeep",
+  "gpu_started": false,
+  "change_scope": "品牌、公开包名、元数据与使用说明；历史证据保持原字节。",
+  "unittest_count": 43,
+  "unittest_result": "PASS",
+  "unittest_command": "python3 -B -m unittest tests.test_release_contract tests.test_strict_control experiments.test_frozen_reference -v",
+  "frozen_conditions": 21,
+  "cpu_comparison_rows": 63,
+  "example": "PASS",
+  "unchanged_historical_files": 28,
+  "original_release_directory": "/home/wjg/code/RECURSTATE",
+  "old_delivery_metadata": "provenance/recurstate_delivery/",
+  "not_performed": [
+    "未运行 GPU",
+    "未推送远程仓库",
+    "未修改历史实验数据",
+    "未修改研究包 flowstate 的导入名"
+  ]
+}

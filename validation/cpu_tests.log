@@ -1,0 +1,50 @@
+test_bad_budgets_rejected (tests.test_release_contract.ReleaseContractTests) ... ok
+test_corrupt_archive_hash_rejected (tests.test_release_contract.ReleaseContractTests) ... ok
+test_corrupt_tokens_rejected (tests.test_release_contract.ReleaseContractTests) ... ok
+test_duplicate_candidate_rejected (tests.test_release_contract.ReleaseContractTests) ... ok
+test_epoch_identity_rejected (tests.test_release_contract.ReleaseContractTests) ... ok
+test_exact_domain (tests.test_release_contract.ReleaseContractTests) ... ok
+test_exact_error_never_falls_back (tests.test_release_contract.ReleaseContractTests) ... ok
+test_missing_components_rejected (tests.test_release_contract.ReleaseContractTests) ... ok
+test_missing_pair_rejected (tests.test_release_contract.ReleaseContractTests) ... ok
+test_model_boundary_and_monotonic_domain (tests.test_release_contract.ReleaseContractTests) ... ok
+test_plan_wrong_budget_rejected (tests.test_release_contract.ReleaseContractTests) ... ok
+test_strict20_and_ck3_reference (tests.test_release_contract.ReleaseContractTests) ... /tmp/recurstate_release_build/RECURSTATE/tests/test_release_contract.py:37: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/recurstate_release_build/RECURSTATE/artifacts/frozen_cpu_snapshots/solver_dispatch_cpu_recheck.csv' mode='r' encoding='UTF-8'>
+  references={(r['condition'].lower().replace('b5-c4','b5c4').replace('c/k3','ck3'),int(r['K'])):r
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+ok
+test_unequal_cost_rejected (tests.test_release_contract.ReleaseContractTests) ... ok
+test_unknown_rejected (tests.test_release_contract.ReleaseContractTests) ... ok
+test_accounting (tests.test_strict_control.StrictControlTests) ... ok
+test_active (tests.test_strict_control.StrictControlTests) ... ok
+test_admission (tests.test_strict_control.StrictControlTests) ... ok
+test_budget (tests.test_strict_control.StrictControlTests) ... ok
+test_component_alias (tests.test_strict_control.StrictControlTests) ... ok
+test_empty_slot (tests.test_strict_control.StrictControlTests) ... ok
+test_engine_identity_changed (tests.test_strict_control.StrictControlTests) ... ok
+test_epoch_digest (tests.test_strict_control.StrictControlTests) ... ok
+test_evicted_protected (tests.test_strict_control.StrictControlTests) ... ok
+test_fa_corruption (tests.test_strict_control.StrictControlTests) ... ok
+test_failed_operation_may_have_mutated (tests.test_strict_control.StrictControlTests) ... ok
+test_host_copy (tests.test_strict_control.StrictControlTests) ... ok
+test_incomplete_components (tests.test_strict_control.StrictControlTests) ... ok
+test_midflight_change (tests.test_strict_control.StrictControlTests) ... ok
+test_node_alias (tests.test_strict_control.StrictControlTests) ... ok
+test_partial_failure (tests.test_strict_control.StrictControlTests) ... ok
+test_reference (tests.test_strict_control.StrictControlTests) ... ok
+test_selected_damaged_by_broken_primitive (tests.test_strict_control.StrictControlTests) ... ok
+test_selected_exceeds_budget (tests.test_strict_control.StrictControlTests) ... ok
+test_selected_missing (tests.test_strict_control.StrictControlTests) ... ok
+test_selected_outside (tests.test_strict_control.StrictControlTests) ... ok
+test_silent_noop (tests.test_strict_control.StrictControlTests) ... ok
+test_slot_alias (tests.test_strict_control.StrictControlTests) ... ok
+test_stale_view (tests.test_strict_control.StrictControlTests) ... ok
+test_success_shared_ancestor_and_branches (tests.test_strict_control.StrictControlTests) ... ok
+test_transfer (tests.test_strict_control.StrictControlTests) ... ok
+test_unmanaged (tests.test_strict_control.StrictControlTests) ... ok
+test_wrong_complement (tests.test_strict_control.StrictControlTests) ... ok
+
+----------------------------------------------------------------------
+Ran 42 tests in 10.073s
+
+OK

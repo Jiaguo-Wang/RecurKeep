@@ -1,0 +1,204 @@
+experiment_group,condition_id,case,budget_k,policy,source,source_row,J_model_ms,exact_J_model_ms,gap_exact_ms,matches_exact_objective,baseline_status
+historical_strict20,w1/K1,w1,1,Exact,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,2,223.84222283376562,223.84222283376562,0.0,True,exact_available
+historical_strict20,w1/K1,w1,1,Greedy,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,3,223.84222283376562,223.84222283376562,0.0,True,exact_available
+historical_strict20,w1/K1,w1,1,Greedy+1-Swap,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,4,223.84222283376562,223.84222283376562,0.0,True,exact_available
+historical_strict20,w1/K1,w1,1,WFC,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,5,223.84222283376562,223.84222283376562,0.0,True,exact_available
+historical_strict20,w1/K1,w1,1,StandaloneTopK,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,6,223.84222283376562,223.84222283376562,0.0,True,exact_available
+historical_strict20,w1/K1,w1,1,PCB,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,7,431.1409858134141,223.84222283376562,207.29876297964847,False,exact_available
+historical_strict20,w1/K1,w1,1,LDR,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,8,431.1409858134141,223.84222283376562,207.29876297964847,False,exact_available
+historical_strict20,w1/K2,w1,2,Exact,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,9,53.77075886917578,53.77075886917578,0.0,True,exact_available
+historical_strict20,w1/K2,w1,2,Greedy,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,10,126.590493308375,53.77075886917578,72.81973443919922,False,exact_available
+historical_strict20,w1/K2,w1,2,Greedy+1-Swap,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,11,53.77075886917578,53.77075886917578,0.0,True,exact_available
+historical_strict20,w1/K2,w1,2,WFC,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,12,126.590493308375,53.77075886917578,72.81973443919922,False,exact_available
+historical_strict20,w1/K2,w1,2,StandaloneTopK,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,13,126.590493308375,53.77075886917578,72.81973443919922,False,exact_available
+historical_strict20,w1/K2,w1,2,PCB,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,14,276.7920301974141,53.77075886917578,223.0212713282383,False,exact_available
+historical_strict20,w1/K2,w1,2,LDR,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,15,276.7920301974141,53.77075886917578,223.0212713282383,False,exact_available
+historical_strict20,w1/K3,w1,3,Exact,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,16,21.95337471670703,21.95337471670703,0.0,True,exact_available
+historical_strict20,w1/K3,w1,3,Greedy,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,17,53.77075886917578,21.95337471670703,31.817384152468748,False,exact_available
+historical_strict20,w1/K3,w1,3,Greedy+1-Swap,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,18,31.817384152468748,21.95337471670703,9.864009435761716,False,exact_available
+historical_strict20,w1/K3,w1,3,WFC,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,19,53.77075886917578,21.95337471670703,31.817384152468748,False,exact_available
+historical_strict20,w1/K3,w1,3,StandaloneTopK,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,20,53.77075886917578,21.95337471670703,31.817384152468748,False,exact_available
+historical_strict20,w1/K3,w1,3,PCB,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,21,137.1712607901328,21.95337471670703,115.21788607342577,False,exact_available
+historical_strict20,w1/K3,w1,3,LDR,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,22,137.1712607901328,21.95337471670703,115.21788607342577,False,exact_available
+historical_strict20,w1/K4,w1,4,Exact,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,23,0.0,0.0,0.0,True,exact_available
+historical_strict20,w1/K4,w1,4,Greedy,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,24,36.6359262866289,0.0,36.6359262866289,False,exact_available
+historical_strict20,w1/K4,w1,4,Greedy+1-Swap,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,25,0.0,0.0,0.0,True,exact_available
+historical_strict20,w1/K4,w1,4,WFC,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,26,36.6359262866289,0.0,36.6359262866289,False,exact_available
+historical_strict20,w1/K4,w1,4,StandaloneTopK,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,27,36.6359262866289,0.0,36.6359262866289,False,exact_available
+historical_strict20,w1/K4,w1,4,PCB,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,28,0.0,0.0,0.0,True,exact_available
+historical_strict20,w1/K4,w1,4,LDR,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,29,0.0,0.0,0.0,True,exact_available
+historical_strict20,w2/K1,w2,1,Exact,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,30,214.01964287067187,214.01964287067187,0.0,True,exact_available
+historical_strict20,w2/K1,w2,1,Greedy,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,31,214.01964287067187,214.01964287067187,0.0,True,exact_available
+historical_strict20,w2/K1,w2,1,Greedy+1-Swap,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,32,214.01964287067187,214.01964287067187,0.0,True,exact_available
+historical_strict20,w2/K1,w2,1,WFC,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,33,214.01964287067187,214.01964287067187,0.0,True,exact_available
+historical_strict20,w2/K1,w2,1,StandaloneTopK,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,34,214.01964287067187,214.01964287067187,0.0,True,exact_available
+historical_strict20,w2/K1,w2,1,PCB,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,35,426.21676445535155,214.01964287067187,212.19712158467968,False,exact_available
+historical_strict20,w2/K1,w2,1,LDR,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,36,426.21676445535155,214.01964287067187,212.19712158467968,False,exact_available
+historical_strict20,w2/K2,w2,2,Exact,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,37,53.73318021532422,53.73318021532422,0.0,True,exact_available
+historical_strict20,w2/K2,w2,2,Greedy,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,38,131.4312851453867,53.73318021532422,77.6981049300625,False,exact_available
+historical_strict20,w2/K2,w2,2,Greedy+1-Swap,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,39,53.73318021532422,53.73318021532422,0.0,True,exact_available
+historical_strict20,w2/K2,w2,2,WFC,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,40,131.4312851453867,53.73318021532422,77.6981049300625,False,exact_available
+historical_strict20,w2/K2,w2,2,StandaloneTopK,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,41,131.4312851453867,53.73318021532422,77.6981049300625,False,exact_available
+historical_strict20,w2/K2,w2,2,PCB,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,42,281.69253002722655,53.73318021532422,227.95934981190234,False,exact_available
+historical_strict20,w2/K2,w2,2,LDR,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,43,281.69253002722655,53.73318021532422,227.95934981190234,False,exact_available
+historical_strict20,w2/K3,w2,3,Exact,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,44,21.965537870171875,21.965537870171875,0.0,True,exact_available
+historical_strict20,w2/K3,w2,3,Greedy,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,45,53.73318021532422,21.965537870171875,31.767642345152343,False,exact_available
+historical_strict20,w2/K3,w2,3,Greedy+1-Swap,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,46,31.767642345152346,21.965537870171875,9.80210447498047,False,exact_available
+historical_strict20,w2/K3,w2,3,WFC,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,47,53.73318021532422,21.965537870171875,31.767642345152343,False,exact_available
+historical_strict20,w2/K3,w2,3,StandaloneTopK,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,48,53.73318021532422,21.965537870171875,31.767642345152343,False,exact_available
+historical_strict20,w2/K3,w2,3,PCB,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,49,139.62076940728127,21.965537870171875,117.6552315371094,False,exact_available
+historical_strict20,w2/K3,w2,3,LDR,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,50,139.62076940728127,21.965537870171875,117.6552315371094,False,exact_available
+historical_strict20,w2/K4,w2,4,Exact,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,51,0.0,0.0,0.0,True,exact_available
+historical_strict20,w2/K4,w2,4,Greedy,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,52,34.17701910054297,0.0,34.17701910054297,False,exact_available
+historical_strict20,w2/K4,w2,4,Greedy+1-Swap,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,53,0.0,0.0,0.0,True,exact_available
+historical_strict20,w2/K4,w2,4,WFC,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,54,34.17701910054297,0.0,34.17701910054297,False,exact_available
+historical_strict20,w2/K4,w2,4,StandaloneTopK,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,55,34.17701910054297,0.0,34.17701910054297,False,exact_available
+historical_strict20,w2/K4,w2,4,PCB,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,56,0.0,0.0,0.0,True,exact_available
+historical_strict20,w2/K4,w2,4,LDR,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,57,0.0,0.0,0.0,True,exact_available
+historical_strict20,w3/K1,w3,1,Exact,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,58,185.82030888572876,185.82030888572876,0.0,True,exact_available
+historical_strict20,w3/K1,w3,1,Greedy,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,59,185.82030888572876,185.82030888572876,0.0,True,exact_available
+historical_strict20,w3/K1,w3,1,Greedy+1-Swap,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,60,185.82030888572876,185.82030888572876,0.0,True,exact_available
+historical_strict20,w3/K1,w3,1,WFC,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,61,185.82030888572876,185.82030888572876,0.0,True,exact_available
+historical_strict20,w3/K1,w3,1,StandaloneTopK,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,62,185.82030888572876,185.82030888572876,0.0,True,exact_available
+historical_strict20,w3/K1,w3,1,PCB,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,63,405.3262861798579,185.82030888572876,219.50597729412914,False,exact_available
+historical_strict20,w3/K1,w3,1,LDR,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,64,405.3262861798579,185.82030888572876,219.50597729412914,False,exact_available
+historical_strict20,w3/K2,w3,2,Exact,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,65,25.559189928624576,25.559189928624576,0.0,True,exact_available
+historical_strict20,w3/K2,w3,2,Greedy,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,66,103.25149217832282,25.559189928624576,77.69230224969824,False,exact_available
+historical_strict20,w3/K2,w3,2,Greedy+1-Swap,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,67,25.559189928624576,25.559189928624576,0.0,True,exact_available
+historical_strict20,w3/K2,w3,2,WFC,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,68,103.25149217832282,25.559189928624576,77.69230224969824,False,exact_available
+historical_strict20,w3/K2,w3,2,StandaloneTopK,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,69,103.25149217832282,25.559189928624576,77.69230224969824,False,exact_available
+historical_strict20,w3/K2,w3,2,PCB,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,70,263.2545255599126,25.559189928624576,237.69533563128806,False,exact_available
+historical_strict20,w3/K2,w3,2,LDR,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,71,263.2545255599126,25.559189928624576,237.69533563128806,False,exact_available
+historical_strict20,w3/K3,w3,3,Exact,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,72,10.909073434608953,10.909073434608953,0.0,True,exact_available
+historical_strict20,w3/K3,w3,3,Greedy,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,73,25.559189928624576,10.909073434608953,14.650116494015624,False,exact_available
+historical_strict20,w3/K3,w3,3,Greedy+1-Swap,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,74,10.909073434608953,10.909073434608953,0.0,True,exact_available
+historical_strict20,w3/K3,w3,3,WFC,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,75,25.559189928624576,10.909073434608953,14.650116494015624,False,exact_available
+historical_strict20,w3/K3,w3,3,StandaloneTopK,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,76,103.25149217832282,10.909073434608953,92.34241874371386,False,exact_available
+historical_strict20,w3/K3,w3,3,PCB,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,77,130.97614381805928,10.909073434608953,120.06707038345033,False,exact_available
+historical_strict20,w3/K3,w3,3,LDR,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,78,130.97614381805928,10.909073434608953,120.06707038345033,False,exact_available
+historical_strict20,w3/K4,w3,4,Exact,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,79,1.1428536413433266,1.1428536413433266,0.0,True,exact_available
+historical_strict20,w3/K4,w3,4,Greedy,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,80,10.909073434608953,1.1428536413433266,9.766219793265627,False,exact_available
+historical_strict20,w3/K4,w3,4,Greedy+1-Swap,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,81,1.1428536413433266,1.1428536413433266,0.0,True,exact_available
+historical_strict20,w3/K4,w3,4,WFC,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,82,10.909073434608953,1.1428536413433266,9.766219793265627,False,exact_available
+historical_strict20,w3/K4,w3,4,StandaloneTopK,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,83,25.559189928624576,1.1428536413433266,24.41633628728125,False,exact_available
+historical_strict20,w3/K4,w3,4,PCB,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,84,1.1428536413433266,1.1428536413433266,0.0,True,exact_available
+historical_strict20,w3/K4,w3,4,LDR,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,85,1.1428536413433266,1.1428536413433266,0.0,True,exact_available
+historical_strict20,w4/K1,w4,1,Exact,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,86,205.34472391246481,205.34472391246481,0.0,True,exact_available
+historical_strict20,w4/K1,w4,1,Greedy,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,87,205.34472391246481,205.34472391246481,0.0,True,exact_available
+historical_strict20,w4/K1,w4,1,Greedy+1-Swap,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,88,205.34472391246481,205.34472391246481,0.0,True,exact_available
+historical_strict20,w4/K1,w4,1,WFC,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,89,205.34472391246481,205.34472391246481,0.0,True,exact_available
+historical_strict20,w4/K1,w4,1,StandaloneTopK,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,90,205.34472391246481,205.34472391246481,0.0,True,exact_available
+historical_strict20,w4/K1,w4,1,PCB,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,91,419.98109268480107,205.34472391246481,214.63636877233625,False,exact_available
+historical_strict20,w4/K1,w4,1,LDR,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,92,419.98109268480107,205.34472391246481,214.63636877233625,False,exact_available
+historical_strict20,w4/K2,w4,2,Exact,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,93,45.066823898798724,45.066823898798724,0.0,True,exact_available
+historical_strict20,w4/K2,w4,2,Greedy,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,94,122.77541955042372,45.066823898798724,77.70859565162499,False,exact_available
+historical_strict20,w4/K2,w4,2,Greedy+1-Swap,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,95,45.066823898798724,45.066823898798724,0.0,True,exact_available
+historical_strict20,w4/K2,w4,2,WFC,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,96,122.77541955042372,45.066823898798724,77.70859565162499,False,exact_available
+historical_strict20,w4/K2,w4,2,StandaloneTopK,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,97,122.77541955042372,45.066823898798724,77.70859565162499,False,exact_available
+historical_strict20,w4/K2,w4,2,PCB,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,98,275.4568582566761,45.066823898798724,230.3900343578774,False,exact_available
+historical_strict20,w4/K2,w4,2,LDR,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,99,275.4568582566761,45.066823898798724,230.3900343578774,False,exact_available
+historical_strict20,w4/K3,w4,3,Exact,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,100,10.871357981970599,10.871357981970599,0.0,True,exact_available
+historical_strict20,w4/K3,w4,3,Greedy,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,101,45.066823898798724,10.871357981970599,34.19546591682813,False,exact_available
+historical_strict20,w4/K3,w4,3,Greedy+1-Swap,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,102,10.871357981970599,10.871357981970599,0.0,True,exact_available
+historical_strict20,w4/K3,w4,3,WFC,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,103,45.066823898798724,10.871357981970599,34.19546591682813,False,exact_available
+historical_strict20,w4/K3,w4,3,StandaloneTopK,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,104,45.066823898798724,10.871357981970599,34.19546591682813,False,exact_available
+historical_strict20,w4/K3,w4,3,PCB,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,105,133.3850976367308,10.871357981970599,122.51373965476019,False,exact_available
+historical_strict20,w4/K3,w4,3,LDR,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,106,133.3850976367308,10.871357981970599,122.51373965476019,False,exact_available
+historical_strict20,w4/K4,w4,4,Exact,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,107,1.1051381887049732,1.1051381887049732,0.0,True,exact_available
+historical_strict20,w4/K4,w4,4,Greedy,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,108,25.521474475986224,1.1051381887049732,24.41633628728125,False,exact_available
+historical_strict20,w4/K4,w4,4,Greedy+1-Swap,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,109,1.1051381887049732,1.1051381887049732,0.0,True,exact_available
+historical_strict20,w4/K4,w4,4,WFC,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,110,25.521474475986224,1.1051381887049732,24.41633628728125,False,exact_available
+historical_strict20,w4/K4,w4,4,StandaloneTopK,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,111,45.066823898798724,1.1051381887049732,43.961685710093754,False,exact_available
+historical_strict20,w4/K4,w4,4,PCB,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,112,1.1051381887049732,1.1051381887049732,0.0,True,exact_available
+historical_strict20,w4/K4,w4,4,LDR,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,113,1.1051381887049732,1.1051381887049732,0.0,True,exact_available
+historical_strict20,b5-c4/K1,b5-c4,1,Exact,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,114,228.05481335524232,228.05481335524232,0.0,True,exact_available
+historical_strict20,b5-c4/K1,b5-c4,1,Greedy,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,115,228.05481335524232,228.05481335524232,0.0,True,exact_available
+historical_strict20,b5-c4/K1,b5-c4,1,Greedy+1-Swap,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,116,228.05481335524232,228.05481335524232,0.0,True,exact_available
+historical_strict20,b5-c4/K1,b5-c4,1,WFC,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,117,228.05481335524232,228.05481335524232,0.0,True,exact_available
+historical_strict20,b5-c4/K1,b5-c4,1,StandaloneTopK,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,118,228.05481335524232,228.05481335524232,0.0,True,exact_available
+historical_strict20,b5-c4/K1,b5-c4,1,PCB,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,119,435.3621410255414,228.05481335524232,207.3073276702991,False,exact_available
+historical_strict20,b5-c4/K1,b5-c4,1,LDR,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,120,435.3621410255414,228.05481335524232,207.3073276702991,False,exact_available
+historical_strict20,b5-c4/K2,b5-c4,2,Exact,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,121,48.228728759089606,48.228728759089606,0.0,True,exact_available
+historical_strict20,b5-c4/K2,b5-c4,2,Greedy,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,122,130.8030838298517,48.228728759089606,82.57435507076208,False,exact_available
+historical_strict20,b5-c4/K2,b5-c4,2,Greedy+1-Swap,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,123,48.228728759089606,48.228728759089606,0.0,True,exact_available
+historical_strict20,b5-c4/K2,b5-c4,2,WFC,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,124,130.8030838298517,48.228728759089606,82.57435507076208,False,exact_available
+historical_strict20,b5-c4/K2,b5-c4,2,StandaloneTopK,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,125,130.8030838298517,48.228728759089606,82.57435507076208,False,exact_available
+historical_strict20,b5-c4/K2,b5-c4,2,PCB,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,126,281.0131854095414,48.228728759089606,232.78445665045177,False,exact_available
+historical_strict20,b5-c4/K2,b5-c4,2,LDR,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,127,281.0131854095414,48.228728759089606,232.78445665045177,False,exact_available
+historical_strict20,b5-c4/K3,b5-c4,3,Exact,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,128,16.411344606620858,16.411344606620858,0.0,True,exact_available
+historical_strict20,b5-c4/K3,b5-c4,3,Greedy,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,129,48.228728759089606,16.411344606620858,31.817384152468748,False,exact_available
+historical_strict20,b5-c4/K3,b5-c4,3,Greedy+1-Swap,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,130,16.411344606620858,16.411344606620858,0.0,True,exact_available
+historical_strict20,b5-c4/K3,b5-c4,3,WFC,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,131,48.228728759089606,16.411344606620858,31.817384152468748,False,exact_available
+historical_strict20,b5-c4/K3,b5-c4,3,StandaloneTopK,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,132,48.228728759089606,16.411344606620858,31.817384152468748,False,exact_available
+historical_strict20,b5-c4/K3,b5-c4,3,PCB,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,133,134.0349945777211,16.411344606620858,117.62364997110025,False,exact_available
+historical_strict20,b5-c4/K3,b5-c4,3,LDR,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,134,134.0349945777211,16.411344606620858,117.62364997110025,False,exact_available
+historical_strict20,b5-c4/K4,b5-c4,4,Exact,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,135,1.7531193436286698,1.7531193436286698,0.0,True,exact_available
+historical_strict20,b5-c4/K4,b5-c4,4,Greedy,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,136,31.09389617654273,1.7531193436286698,29.340776832914063,False,exact_available
+historical_strict20,b5-c4/K4,b5-c4,4,Greedy+1-Swap,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,137,1.7531193436286698,1.7531193436286698,0.0,True,exact_available
+historical_strict20,b5-c4/K4,b5-c4,4,WFC,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,138,31.09389617654273,1.7531193436286698,29.340776832914063,False,exact_available
+historical_strict20,b5-c4/K4,b5-c4,4,StandaloneTopK,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,139,48.228728759089606,1.7531193436286698,46.47560941546094,False,exact_available
+historical_strict20,b5-c4/K4,b5-c4,4,PCB,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,140,1.7531193436286698,1.7531193436286698,0.0,True,exact_available
+historical_strict20,b5-c4/K4,b5-c4,4,LDR,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,141,1.7531193436286698,1.7531193436286698,0.0,True,exact_available
+rename_cpu21,w1/K1,w1,1,RecurKeep,validation/recurkeep_rename/cpu_comparison.csv,2,223.84222283376562,223.84222283376562,0.0,True,exact_available
+rename_cpu21,w1/K1,w1,1,Marginal Greedy,validation/recurkeep_rename/cpu_comparison.csv,3,223.84222283376562,223.84222283376562,0.0,True,exact_available
+rename_cpu21,w1/K1,w1,1,Independent Top-K,validation/recurkeep_rename/cpu_comparison.csv,4,223.84222283376562,223.84222283376562,0.0,True,exact_available
+rename_cpu21,w1/K2,w1,2,RecurKeep,validation/recurkeep_rename/cpu_comparison.csv,5,53.77075886917578,53.77075886917578,0.0,True,exact_available
+rename_cpu21,w1/K2,w1,2,Marginal Greedy,validation/recurkeep_rename/cpu_comparison.csv,6,126.590493308375,53.77075886917578,72.81973443919922,False,exact_available
+rename_cpu21,w1/K2,w1,2,Independent Top-K,validation/recurkeep_rename/cpu_comparison.csv,7,126.590493308375,53.77075886917578,72.81973443919922,False,exact_available
+rename_cpu21,w1/K3,w1,3,RecurKeep,validation/recurkeep_rename/cpu_comparison.csv,8,21.95337471670703,21.95337471670703,0.0,True,exact_available
+rename_cpu21,w1/K3,w1,3,Marginal Greedy,validation/recurkeep_rename/cpu_comparison.csv,9,53.77075886917578,21.95337471670703,31.817384152468748,False,exact_available
+rename_cpu21,w1/K3,w1,3,Independent Top-K,validation/recurkeep_rename/cpu_comparison.csv,10,53.77075886917578,21.95337471670703,31.817384152468748,False,exact_available
+rename_cpu21,w1/K4,w1,4,RecurKeep,validation/recurkeep_rename/cpu_comparison.csv,11,0.0,0.0,0.0,True,exact_available
+rename_cpu21,w1/K4,w1,4,Marginal Greedy,validation/recurkeep_rename/cpu_comparison.csv,12,36.63592628662891,0.0,36.63592628662891,False,exact_available
+rename_cpu21,w1/K4,w1,4,Independent Top-K,validation/recurkeep_rename/cpu_comparison.csv,13,36.63592628662891,0.0,36.63592628662891,False,exact_available
+rename_cpu21,w2/K1,w2,1,RecurKeep,validation/recurkeep_rename/cpu_comparison.csv,14,214.0196428706719,214.01964287067187,2.842170943040401e-14,True,exact_available
+rename_cpu21,w2/K1,w2,1,Marginal Greedy,validation/recurkeep_rename/cpu_comparison.csv,15,214.0196428706719,214.01964287067187,2.842170943040401e-14,True,exact_available
+rename_cpu21,w2/K1,w2,1,Independent Top-K,validation/recurkeep_rename/cpu_comparison.csv,16,214.0196428706719,214.01964287067187,2.842170943040401e-14,True,exact_available
+rename_cpu21,w2/K2,w2,2,RecurKeep,validation/recurkeep_rename/cpu_comparison.csv,17,53.73318021532422,53.73318021532422,0.0,True,exact_available
+rename_cpu21,w2/K2,w2,2,Marginal Greedy,validation/recurkeep_rename/cpu_comparison.csv,18,131.43128514538674,53.73318021532422,77.69810493006253,False,exact_available
+rename_cpu21,w2/K2,w2,2,Independent Top-K,validation/recurkeep_rename/cpu_comparison.csv,19,131.43128514538674,53.73318021532422,77.69810493006253,False,exact_available
+rename_cpu21,w2/K3,w2,3,RecurKeep,validation/recurkeep_rename/cpu_comparison.csv,20,21.965537870171875,21.965537870171875,0.0,True,exact_available
+rename_cpu21,w2/K3,w2,3,Marginal Greedy,validation/recurkeep_rename/cpu_comparison.csv,21,53.73318021532422,21.965537870171875,31.767642345152343,False,exact_available
+rename_cpu21,w2/K3,w2,3,Independent Top-K,validation/recurkeep_rename/cpu_comparison.csv,22,53.73318021532422,21.965537870171875,31.767642345152343,False,exact_available
+rename_cpu21,w2/K4,w2,4,RecurKeep,validation/recurkeep_rename/cpu_comparison.csv,23,0.0,0.0,0.0,True,exact_available
+rename_cpu21,w2/K4,w2,4,Marginal Greedy,validation/recurkeep_rename/cpu_comparison.csv,24,34.17701910054297,0.0,34.17701910054297,False,exact_available
+rename_cpu21,w2/K4,w2,4,Independent Top-K,validation/recurkeep_rename/cpu_comparison.csv,25,34.17701910054297,0.0,34.17701910054297,False,exact_available
+rename_cpu21,w3/K1,w3,1,RecurKeep,validation/recurkeep_rename/cpu_comparison.csv,26,185.82030888572876,185.82030888572876,0.0,True,exact_available
+rename_cpu21,w3/K1,w3,1,Marginal Greedy,validation/recurkeep_rename/cpu_comparison.csv,27,185.82030888572876,185.82030888572876,0.0,True,exact_available
+rename_cpu21,w3/K1,w3,1,Independent Top-K,validation/recurkeep_rename/cpu_comparison.csv,28,185.82030888572876,185.82030888572876,0.0,True,exact_available
+rename_cpu21,w3/K2,w3,2,RecurKeep,validation/recurkeep_rename/cpu_comparison.csv,29,25.559189928624576,25.559189928624576,0.0,True,exact_available
+rename_cpu21,w3/K2,w3,2,Marginal Greedy,validation/recurkeep_rename/cpu_comparison.csv,30,103.25149217832282,25.559189928624576,77.69230224969824,False,exact_available
+rename_cpu21,w3/K2,w3,2,Independent Top-K,validation/recurkeep_rename/cpu_comparison.csv,31,103.25149217832282,25.559189928624576,77.69230224969824,False,exact_available
+rename_cpu21,w3/K3,w3,3,RecurKeep,validation/recurkeep_rename/cpu_comparison.csv,32,10.90907343460895,10.909073434608953,-1.7763568394002505e-15,True,exact_available
+rename_cpu21,w3/K3,w3,3,Marginal Greedy,validation/recurkeep_rename/cpu_comparison.csv,33,25.559189928624576,10.909073434608953,14.650116494015624,False,exact_available
+rename_cpu21,w3/K3,w3,3,Independent Top-K,validation/recurkeep_rename/cpu_comparison.csv,34,103.25149217832282,10.909073434608953,92.34241874371386,False,exact_available
+rename_cpu21,w3/K4,w3,4,RecurKeep,validation/recurkeep_rename/cpu_comparison.csv,35,1.1428536413433266,1.1428536413433266,0.0,True,exact_available
+rename_cpu21,w3/K4,w3,4,Marginal Greedy,validation/recurkeep_rename/cpu_comparison.csv,36,10.90907343460895,1.1428536413433266,9.766219793265623,False,exact_available
+rename_cpu21,w3/K4,w3,4,Independent Top-K,validation/recurkeep_rename/cpu_comparison.csv,37,25.559189928624576,1.1428536413433266,24.41633628728125,False,exact_available
+rename_cpu21,w4/K1,w4,1,RecurKeep,validation/recurkeep_rename/cpu_comparison.csv,38,205.34472391246481,205.34472391246481,0.0,True,exact_available
+rename_cpu21,w4/K1,w4,1,Marginal Greedy,validation/recurkeep_rename/cpu_comparison.csv,39,205.34472391246481,205.34472391246481,0.0,True,exact_available
+rename_cpu21,w4/K1,w4,1,Independent Top-K,validation/recurkeep_rename/cpu_comparison.csv,40,205.34472391246481,205.34472391246481,0.0,True,exact_available
+rename_cpu21,w4/K2,w4,2,RecurKeep,validation/recurkeep_rename/cpu_comparison.csv,41,45.066823898798724,45.066823898798724,0.0,True,exact_available
+rename_cpu21,w4/K2,w4,2,Marginal Greedy,validation/recurkeep_rename/cpu_comparison.csv,42,122.77541955042372,45.066823898798724,77.70859565162499,False,exact_available
+rename_cpu21,w4/K2,w4,2,Independent Top-K,validation/recurkeep_rename/cpu_comparison.csv,43,122.77541955042372,45.066823898798724,77.70859565162499,False,exact_available
+rename_cpu21,w4/K3,w4,3,RecurKeep,validation/recurkeep_rename/cpu_comparison.csv,44,10.871357981970599,10.871357981970599,0.0,True,exact_available
+rename_cpu21,w4/K3,w4,3,Marginal Greedy,validation/recurkeep_rename/cpu_comparison.csv,45,45.066823898798724,10.871357981970599,34.19546591682813,False,exact_available
+rename_cpu21,w4/K3,w4,3,Independent Top-K,validation/recurkeep_rename/cpu_comparison.csv,46,45.066823898798724,10.871357981970599,34.19546591682813,False,exact_available
+rename_cpu21,w4/K4,w4,4,RecurKeep,validation/recurkeep_rename/cpu_comparison.csv,47,1.1051381887049732,1.1051381887049732,0.0,True,exact_available
+rename_cpu21,w4/K4,w4,4,Marginal Greedy,validation/recurkeep_rename/cpu_comparison.csv,48,25.521474475986224,1.1051381887049732,24.41633628728125,False,exact_available
+rename_cpu21,w4/K4,w4,4,Independent Top-K,validation/recurkeep_rename/cpu_comparison.csv,49,45.066823898798724,1.1051381887049732,43.961685710093754,False,exact_available
+rename_cpu21,b5c4/K1,b5c4,1,RecurKeep,validation/recurkeep_rename/cpu_comparison.csv,50,228.05481335524232,228.05481335524232,0.0,True,exact_available
+rename_cpu21,b5c4/K1,b5c4,1,Marginal Greedy,validation/recurkeep_rename/cpu_comparison.csv,51,228.05481335524232,228.05481335524232,0.0,True,exact_available
+rename_cpu21,b5c4/K1,b5c4,1,Independent Top-K,validation/recurkeep_rename/cpu_comparison.csv,52,228.05481335524232,228.05481335524232,0.0,True,exact_available
+rename_cpu21,b5c4/K2,b5c4,2,RecurKeep,validation/recurkeep_rename/cpu_comparison.csv,53,48.228728759089606,48.228728759089606,0.0,True,exact_available
+rename_cpu21,b5c4/K2,b5c4,2,Marginal Greedy,validation/recurkeep_rename/cpu_comparison.csv,54,130.8030838298517,48.228728759089606,82.57435507076208,False,exact_available
+rename_cpu21,b5c4/K2,b5c4,2,Independent Top-K,validation/recurkeep_rename/cpu_comparison.csv,55,130.8030838298517,48.228728759089606,82.57435507076208,False,exact_available
+rename_cpu21,b5c4/K3,b5c4,3,RecurKeep,validation/recurkeep_rename/cpu_comparison.csv,56,16.411344606620858,16.411344606620858,0.0,True,exact_available
+rename_cpu21,b5c4/K3,b5c4,3,Marginal Greedy,validation/recurkeep_rename/cpu_comparison.csv,57,48.228728759089606,16.411344606620858,31.817384152468748,False,exact_available
+rename_cpu21,b5c4/K3,b5c4,3,Independent Top-K,validation/recurkeep_rename/cpu_comparison.csv,58,48.228728759089606,16.411344606620858,31.817384152468748,False,exact_available
+rename_cpu21,b5c4/K4,b5c4,4,RecurKeep,validation/recurkeep_rename/cpu_comparison.csv,59,1.7531193436286698,1.7531193436286698,0.0,True,exact_available
+rename_cpu21,b5c4/K4,b5c4,4,Marginal Greedy,validation/recurkeep_rename/cpu_comparison.csv,60,31.09389617654273,1.7531193436286698,29.340776832914063,False,exact_available
+rename_cpu21,b5c4/K4,b5c4,4,Independent Top-K,validation/recurkeep_rename/cpu_comparison.csv,61,48.228728759089606,1.7531193436286698,46.47560941546094,False,exact_available
+rename_cpu21,ck3/K3,ck3,3,RecurKeep,validation/recurkeep_rename/cpu_comparison.csv,62,154.34895561599998,,,,exact_unavailable
+rename_cpu21,ck3/K3,ck3,3,Marginal Greedy,validation/recurkeep_rename/cpu_comparison.csv,63,154.34895561599998,,,,exact_unavailable
+rename_cpu21,ck3/K3,ck3,3,Independent Top-K,validation/recurkeep_rename/cpu_comparison.csv,64,348.234011266,,,,exact_unavailable

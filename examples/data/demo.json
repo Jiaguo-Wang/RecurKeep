@@ -1,0 +1,653 @@
+{
+  "epoch_id": "synthetic-cpu-demo-v1",
+  "snapshot_sha256": "c0756b8569cc5d7974b9c158a73600de7029929949b185266268caa7313e918e",
+  "configuration_digest": "7234ee0c4e0b183cefb09772c5308739a74dc292327a8d244428ae440f1169d4",
+  "candidates": [
+    {
+      "candidate": {
+        "checkpoint_id": "shared",
+        "workflow_id": "demo",
+        "lineage_path": [
+          "demo",
+          "shared"
+        ],
+        "token_pos": 2,
+        "memory_bytes": 1024,
+        "recurrent_resident": true,
+        "fa_resident": true
+      },
+      "token_ids": [
+        1,
+        2
+      ],
+      "token_digest": "0c730b69905c5ef7a4ca5269f72365400bde2dd2c04eaf9bbb3d1c4a265a0131",
+      "epoch_id": "synthetic-cpu-demo-v1",
+      "configuration_digest": "7234ee0c4e0b183cefb09772c5308739a74dc292327a8d244428ae440f1169d4"
+    },
+    {
+      "candidate": {
+        "checkpoint_id": "branch-a",
+        "workflow_id": "demo",
+        "lineage_path": [
+          "demo",
+          "branch-a"
+        ],
+        "token_pos": 4,
+        "memory_bytes": 1024,
+        "recurrent_resident": true,
+        "fa_resident": true
+      },
+      "token_ids": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "token_digest": "73e200e2b048c86d4e8c86b86bf62bbda84c7384e34e250b01aa30ab29d234a4",
+      "epoch_id": "synthetic-cpu-demo-v1",
+      "configuration_digest": "7234ee0c4e0b183cefb09772c5308739a74dc292327a8d244428ae440f1169d4"
+    },
+    {
+      "candidate": {
+        "checkpoint_id": "branch-a-deep",
+        "workflow_id": "demo",
+        "lineage_path": [
+          "demo",
+          "branch-a-deep"
+        ],
+        "token_pos": 6,
+        "memory_bytes": 1024,
+        "recurrent_resident": true,
+        "fa_resident": true
+      },
+      "token_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "token_digest": "5f544d51f4618ae3c5c6bcc2bbb9a8f64f63585665c1440d3075790d5e00ccbd",
+      "epoch_id": "synthetic-cpu-demo-v1",
+      "configuration_digest": "7234ee0c4e0b183cefb09772c5308739a74dc292327a8d244428ae440f1169d4"
+    },
+    {
+      "candidate": {
+        "checkpoint_id": "branch-b",
+        "workflow_id": "demo",
+        "lineage_path": [
+          "demo",
+          "branch-b"
+        ],
+        "token_pos": 4,
+        "memory_bytes": 1024,
+        "recurrent_resident": true,
+        "fa_resident": true
+      },
+      "token_ids": [
+        1,
+        2,
+        7,
+        8
+      ],
+      "token_digest": "d80f18bb08cad8f656918fc6bb959dfc2d73149c5abeed5da193b678b2141ad5",
+      "epoch_id": "synthetic-cpu-demo-v1",
+      "configuration_digest": "7234ee0c4e0b183cefb09772c5308739a74dc292327a8d244428ae440f1169d4"
+    }
+  ],
+  "pendings": [
+    {
+      "pending_id": "pending-a",
+      "workflow_id": "demo",
+      "target": 8,
+      "token_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        9,
+        10
+      ],
+      "token_digest": "103b49bf0e01ef853d11e94c655ed659c5a731067bfe286ae0499e060cbfe6e7",
+      "epoch_id": "synthetic-cpu-demo-v1",
+      "configuration_digest": "7234ee0c4e0b183cefb09772c5308739a74dc292327a8d244428ae440f1169d4"
+    },
+    {
+      "pending_id": "pending-b",
+      "workflow_id": "demo",
+      "target": 8,
+      "token_ids": [
+        1,
+        2,
+        7,
+        8,
+        11,
+        12,
+        13,
+        14
+      ],
+      "token_digest": "2fea3c9a41ba58c82afc0f687ded47e58a372b8d5a17893c42f4a474f55846bc",
+      "epoch_id": "synthetic-cpu-demo-v1",
+      "configuration_digest": "7234ee0c4e0b183cefb09772c5308739a74dc292327a8d244428ae440f1169d4"
+    }
+  ],
+  "edges": [
+    {
+      "candidate_id": "shared",
+      "pending_id": "pending-a",
+      "status": "EPOCH_ADMISSIBLE",
+      "epoch_id": "synthetic-cpu-demo-v1",
+      "conditions": [
+        [
+          "L_le_T",
+          true
+        ],
+        [
+          "candidate_token_identity",
+          true
+        ],
+        [
+          "complete_components",
+          true
+        ],
+        [
+          "exact_token_prefix",
+          true
+        ],
+        [
+          "full_path_resident",
+          true
+        ],
+        [
+          "known_pending",
+          true
+        ],
+        [
+          "no_slot_alias",
+          true
+        ],
+        [
+          "pending_token_identity",
+          true
+        ],
+        [
+          "physical_identity",
+          true
+        ],
+        [
+          "recurrent_resident",
+          true
+        ],
+        [
+          "references_clear",
+          true
+        ],
+        [
+          "same_boundary",
+          true
+        ],
+        [
+          "same_configuration",
+          true
+        ],
+        [
+          "target_full_resident",
+          true
+        ]
+      ]
+    },
+    {
+      "candidate_id": "shared",
+      "pending_id": "pending-b",
+      "status": "EPOCH_ADMISSIBLE",
+      "epoch_id": "synthetic-cpu-demo-v1",
+      "conditions": [
+        [
+          "L_le_T",
+          true
+        ],
+        [
+          "candidate_token_identity",
+          true
+        ],
+        [
+          "complete_components",
+          true
+        ],
+        [
+          "exact_token_prefix",
+          true
+        ],
+        [
+          "full_path_resident",
+          true
+        ],
+        [
+          "known_pending",
+          true
+        ],
+        [
+          "no_slot_alias",
+          true
+        ],
+        [
+          "pending_token_identity",
+          true
+        ],
+        [
+          "physical_identity",
+          true
+        ],
+        [
+          "recurrent_resident",
+          true
+        ],
+        [
+          "references_clear",
+          true
+        ],
+        [
+          "same_boundary",
+          true
+        ],
+        [
+          "same_configuration",
+          true
+        ],
+        [
+          "target_full_resident",
+          true
+        ]
+      ]
+    },
+    {
+      "candidate_id": "branch-a",
+      "pending_id": "pending-a",
+      "status": "EPOCH_ADMISSIBLE",
+      "epoch_id": "synthetic-cpu-demo-v1",
+      "conditions": [
+        [
+          "L_le_T",
+          true
+        ],
+        [
+          "candidate_token_identity",
+          true
+        ],
+        [
+          "complete_components",
+          true
+        ],
+        [
+          "exact_token_prefix",
+          true
+        ],
+        [
+          "full_path_resident",
+          true
+        ],
+        [
+          "known_pending",
+          true
+        ],
+        [
+          "no_slot_alias",
+          true
+        ],
+        [
+          "pending_token_identity",
+          true
+        ],
+        [
+          "physical_identity",
+          true
+        ],
+        [
+          "recurrent_resident",
+          true
+        ],
+        [
+          "references_clear",
+          true
+        ],
+        [
+          "same_boundary",
+          true
+        ],
+        [
+          "same_configuration",
+          true
+        ],
+        [
+          "target_full_resident",
+          true
+        ]
+      ]
+    },
+    {
+      "candidate_id": "branch-a",
+      "pending_id": "pending-b",
+      "status": "REJECTED",
+      "epoch_id": "synthetic-cpu-demo-v1",
+      "conditions": [
+        [
+          "L_le_T",
+          true
+        ],
+        [
+          "candidate_token_identity",
+          true
+        ],
+        [
+          "complete_components",
+          true
+        ],
+        [
+          "exact_token_prefix",
+          false
+        ],
+        [
+          "full_path_resident",
+          true
+        ],
+        [
+          "known_pending",
+          true
+        ],
+        [
+          "no_slot_alias",
+          true
+        ],
+        [
+          "pending_token_identity",
+          true
+        ],
+        [
+          "physical_identity",
+          true
+        ],
+        [
+          "recurrent_resident",
+          true
+        ],
+        [
+          "references_clear",
+          true
+        ],
+        [
+          "same_boundary",
+          true
+        ],
+        [
+          "same_configuration",
+          true
+        ],
+        [
+          "target_full_resident",
+          true
+        ]
+      ]
+    },
+    {
+      "candidate_id": "branch-a-deep",
+      "pending_id": "pending-a",
+      "status": "EPOCH_ADMISSIBLE",
+      "epoch_id": "synthetic-cpu-demo-v1",
+      "conditions": [
+        [
+          "L_le_T",
+          true
+        ],
+        [
+          "candidate_token_identity",
+          true
+        ],
+        [
+          "complete_components",
+          true
+        ],
+        [
+          "exact_token_prefix",
+          true
+        ],
+        [
+          "full_path_resident",
+          true
+        ],
+        [
+          "known_pending",
+          true
+        ],
+        [
+          "no_slot_alias",
+          true
+        ],
+        [
+          "pending_token_identity",
+          true
+        ],
+        [
+          "physical_identity",
+          true
+        ],
+        [
+          "recurrent_resident",
+          true
+        ],
+        [
+          "references_clear",
+          true
+        ],
+        [
+          "same_boundary",
+          true
+        ],
+        [
+          "same_configuration",
+          true
+        ],
+        [
+          "target_full_resident",
+          true
+        ]
+      ]
+    },
+    {
+      "candidate_id": "branch-a-deep",
+      "pending_id": "pending-b",
+      "status": "REJECTED",
+      "epoch_id": "synthetic-cpu-demo-v1",
+      "conditions": [
+        [
+          "L_le_T",
+          true
+        ],
+        [
+          "candidate_token_identity",
+          true
+        ],
+        [
+          "complete_components",
+          true
+        ],
+        [
+          "exact_token_prefix",
+          false
+        ],
+        [
+          "full_path_resident",
+          true
+        ],
+        [
+          "known_pending",
+          true
+        ],
+        [
+          "no_slot_alias",
+          true
+        ],
+        [
+          "pending_token_identity",
+          true
+        ],
+        [
+          "physical_identity",
+          true
+        ],
+        [
+          "recurrent_resident",
+          true
+        ],
+        [
+          "references_clear",
+          true
+        ],
+        [
+          "same_boundary",
+          true
+        ],
+        [
+          "same_configuration",
+          true
+        ],
+        [
+          "target_full_resident",
+          true
+        ]
+      ]
+    },
+    {
+      "candidate_id": "branch-b",
+      "pending_id": "pending-a",
+      "status": "REJECTED",
+      "epoch_id": "synthetic-cpu-demo-v1",
+      "conditions": [
+        [
+          "L_le_T",
+          true
+        ],
+        [
+          "candidate_token_identity",
+          true
+        ],
+        [
+          "complete_components",
+          true
+        ],
+        [
+          "exact_token_prefix",
+          false
+        ],
+        [
+          "full_path_resident",
+          true
+        ],
+        [
+          "known_pending",
+          true
+        ],
+        [
+          "no_slot_alias",
+          true
+        ],
+        [
+          "pending_token_identity",
+          true
+        ],
+        [
+          "physical_identity",
+          true
+        ],
+        [
+          "recurrent_resident",
+          true
+        ],
+        [
+          "references_clear",
+          true
+        ],
+        [
+          "same_boundary",
+          true
+        ],
+        [
+          "same_configuration",
+          true
+        ],
+        [
+          "target_full_resident",
+          true
+        ]
+      ]
+    },
+    {
+      "candidate_id": "branch-b",
+      "pending_id": "pending-b",
+      "status": "EPOCH_ADMISSIBLE",
+      "epoch_id": "synthetic-cpu-demo-v1",
+      "conditions": [
+        [
+          "L_le_T",
+          true
+        ],
+        [
+          "candidate_token_identity",
+          true
+        ],
+        [
+          "complete_components",
+          true
+        ],
+        [
+          "exact_token_prefix",
+          true
+        ],
+        [
+          "full_path_resident",
+          true
+        ],
+        [
+          "known_pending",
+          true
+        ],
+        [
+          "no_slot_alias",
+          true
+        ],
+        [
+          "pending_token_identity",
+          true
+        ],
+        [
+          "physical_identity",
+          true
+        ],
+        [
+          "recurrent_resident",
+          true
+        ],
+        [
+          "references_clear",
+          true
+        ],
+        [
+          "same_boundary",
+          true
+        ],
+        [
+          "same_configuration",
+          true
+        ],
+        [
+          "target_full_resident",
+          true
+        ]
+      ]
+    }
+  ],
+  "K": 2,
+  "content_digest": "3a14662cc914d77e9924dac1d4b502857978fc338e81aded64fd0d64bb147e15"
+}

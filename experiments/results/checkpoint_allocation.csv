@@ -1,0 +1,204 @@
+experiment_group,condition_id,case,budget_k,policy,source,source_row,selected_ids_json,selected_count,J_model_ms,evidence_type,candidate_count,solver
+historical_strict20,w1/K1,w1,1,Exact,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,2,"[""B5C3_NODE_20""]",1,223.84222283376562,historical_cpu_model,,
+historical_strict20,w1/K1,w1,1,Greedy,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,3,"[""B5C3_NODE_20""]",1,223.84222283376562,historical_cpu_model,,
+historical_strict20,w1/K1,w1,1,Greedy+1-Swap,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,4,"[""B5C3_NODE_20""]",1,223.84222283376562,historical_cpu_model,,
+historical_strict20,w1/K1,w1,1,WFC,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,5,"[""B5C3_NODE_20""]",1,223.84222283376562,historical_cpu_model,,
+historical_strict20,w1/K1,w1,1,StandaloneTopK,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,6,"[""B5C3_NODE_20""]",1,223.84222283376562,historical_cpu_model,,
+historical_strict20,w1/K1,w1,1,PCB,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,7,"[""B5C3_NODE_27""]",1,431.1409858134141,historical_cpu_model,,
+historical_strict20,w1/K1,w1,1,LDR,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,8,"[""B5C3_NODE_27""]",1,431.1409858134141,historical_cpu_model,,
+historical_strict20,w1/K2,w1,2,Exact,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,9,"[""B5C3_NODE_18"", ""B5C3_NODE_21""]",2,53.77075886917578,historical_cpu_model,,
+historical_strict20,w1/K2,w1,2,Greedy,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,10,"[""B5C3_NODE_20"", ""B5C3_NODE_21""]",2,126.590493308375,historical_cpu_model,,
+historical_strict20,w1/K2,w1,2,Greedy+1-Swap,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,11,"[""B5C3_NODE_18"", ""B5C3_NODE_21""]",2,53.77075886917578,historical_cpu_model,,
+historical_strict20,w1/K2,w1,2,WFC,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,12,"[""B5C3_NODE_20"", ""B5C3_NODE_21""]",2,126.590493308375,historical_cpu_model,,
+historical_strict20,w1/K2,w1,2,StandaloneTopK,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,13,"[""B5C3_NODE_20"", ""B5C3_NODE_21""]",2,126.590493308375,historical_cpu_model,,
+historical_strict20,w1/K2,w1,2,PCB,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,14,"[""B5C3_NODE_27"", ""B5C3_NODE_25""]",2,276.7920301974141,historical_cpu_model,,
+historical_strict20,w1/K2,w1,2,LDR,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,15,"[""B5C3_NODE_27"", ""B5C3_NODE_25""]",2,276.7920301974141,historical_cpu_model,,
+historical_strict20,w1/K3,w1,3,Exact,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,16,"[""B5C3_NODE_18"", ""B5C3_NODE_25"", ""B5C3_NODE_27""]",3,21.95337471670703,historical_cpu_model,,
+historical_strict20,w1/K3,w1,3,Greedy,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,17,"[""B5C3_NODE_20"", ""B5C3_NODE_21"", ""B5C3_NODE_18""]",3,53.77075886917578,historical_cpu_model,,
+historical_strict20,w1/K3,w1,3,Greedy+1-Swap,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,18,"[""B5C3_NODE_21"", ""B5C3_NODE_22"", ""B5C3_NODE_24""]",3,31.817384152468748,historical_cpu_model,,
+historical_strict20,w1/K3,w1,3,WFC,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,19,"[""B5C3_NODE_20"", ""B5C3_NODE_21"", ""B5C3_NODE_18""]",3,53.77075886917578,historical_cpu_model,,
+historical_strict20,w1/K3,w1,3,StandaloneTopK,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,20,"[""B5C3_NODE_20"", ""B5C3_NODE_21"", ""B5C3_NODE_18""]",3,53.77075886917578,historical_cpu_model,,
+historical_strict20,w1/K3,w1,3,PCB,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,21,"[""B5C3_NODE_27"", ""B5C3_NODE_25"", ""B5C3_NODE_24""]",3,137.1712607901328,historical_cpu_model,,
+historical_strict20,w1/K3,w1,3,LDR,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,22,"[""B5C3_NODE_27"", ""B5C3_NODE_25"", ""B5C3_NODE_24""]",3,137.1712607901328,historical_cpu_model,,
+historical_strict20,w1/K4,w1,4,Exact,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,23,"[""B5C3_NODE_22"", ""B5C3_NODE_24"", ""B5C3_NODE_25"", ""B5C3_NODE_27""]",4,0.0,historical_cpu_model,,
+historical_strict20,w1/K4,w1,4,Greedy,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,24,"[""B5C3_NODE_20"", ""B5C3_NODE_21"", ""B5C3_NODE_18"", ""B5C3_NODE_27""]",4,36.6359262866289,historical_cpu_model,,
+historical_strict20,w1/K4,w1,4,Greedy+1-Swap,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,25,"[""B5C3_NODE_22"", ""B5C3_NODE_24"", ""B5C3_NODE_25"", ""B5C3_NODE_27""]",4,0.0,historical_cpu_model,,
+historical_strict20,w1/K4,w1,4,WFC,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,26,"[""B5C3_NODE_20"", ""B5C3_NODE_21"", ""B5C3_NODE_18"", ""B5C3_NODE_27""]",4,36.6359262866289,historical_cpu_model,,
+historical_strict20,w1/K4,w1,4,StandaloneTopK,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,27,"[""B5C3_NODE_20"", ""B5C3_NODE_21"", ""B5C3_NODE_18"", ""B5C3_NODE_27""]",4,36.6359262866289,historical_cpu_model,,
+historical_strict20,w1/K4,w1,4,PCB,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,28,"[""B5C3_NODE_27"", ""B5C3_NODE_25"", ""B5C3_NODE_24"", ""B5C3_NODE_22""]",4,0.0,historical_cpu_model,,
+historical_strict20,w1/K4,w1,4,LDR,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,29,"[""B5C3_NODE_27"", ""B5C3_NODE_25"", ""B5C3_NODE_24"", ""B5C3_NODE_22""]",4,0.0,historical_cpu_model,,
+historical_strict20,w2/K1,w2,1,Exact,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,30,"[""B5C3_NODE_20""]",1,214.01964287067187,historical_cpu_model,,
+historical_strict20,w2/K1,w2,1,Greedy,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,31,"[""B5C3_NODE_20""]",1,214.01964287067187,historical_cpu_model,,
+historical_strict20,w2/K1,w2,1,Greedy+1-Swap,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,32,"[""B5C3_NODE_20""]",1,214.01964287067187,historical_cpu_model,,
+historical_strict20,w2/K1,w2,1,WFC,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,33,"[""B5C3_NODE_20""]",1,214.01964287067187,historical_cpu_model,,
+historical_strict20,w2/K1,w2,1,StandaloneTopK,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,34,"[""B5C3_NODE_20""]",1,214.01964287067187,historical_cpu_model,,
+historical_strict20,w2/K1,w2,1,PCB,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,35,"[""B5C3_NODE_25""]",1,426.21676445535155,historical_cpu_model,,
+historical_strict20,w2/K1,w2,1,LDR,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,36,"[""B5C3_NODE_25""]",1,426.21676445535155,historical_cpu_model,,
+historical_strict20,w2/K2,w2,2,Exact,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,37,"[""B5C3_NODE_18"", ""B5C3_NODE_21""]",2,53.73318021532422,historical_cpu_model,,
+historical_strict20,w2/K2,w2,2,Greedy,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,38,"[""B5C3_NODE_20"", ""B5C3_NODE_21""]",2,131.4312851453867,historical_cpu_model,,
+historical_strict20,w2/K2,w2,2,Greedy+1-Swap,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,39,"[""B5C3_NODE_18"", ""B5C3_NODE_21""]",2,53.73318021532422,historical_cpu_model,,
+historical_strict20,w2/K2,w2,2,WFC,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,40,"[""B5C3_NODE_20"", ""B5C3_NODE_21""]",2,131.4312851453867,historical_cpu_model,,
+historical_strict20,w2/K2,w2,2,StandaloneTopK,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,41,"[""B5C3_NODE_20"", ""B5C3_NODE_21""]",2,131.4312851453867,historical_cpu_model,,
+historical_strict20,w2/K2,w2,2,PCB,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,42,"[""B5C3_NODE_25"", ""B5C3_NODE_27""]",2,281.69253002722655,historical_cpu_model,,
+historical_strict20,w2/K2,w2,2,LDR,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,43,"[""B5C3_NODE_25"", ""B5C3_NODE_27""]",2,281.69253002722655,historical_cpu_model,,
+historical_strict20,w2/K3,w2,3,Exact,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,44,"[""B5C3_NODE_18"", ""B5C3_NODE_25"", ""B5C3_NODE_27""]",3,21.965537870171875,historical_cpu_model,,
+historical_strict20,w2/K3,w2,3,Greedy,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,45,"[""B5C3_NODE_20"", ""B5C3_NODE_21"", ""B5C3_NODE_18""]",3,53.73318021532422,historical_cpu_model,,
+historical_strict20,w2/K3,w2,3,Greedy+1-Swap,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,46,"[""B5C3_NODE_21"", ""B5C3_NODE_22"", ""B5C3_NODE_24""]",3,31.767642345152346,historical_cpu_model,,
+historical_strict20,w2/K3,w2,3,WFC,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,47,"[""B5C3_NODE_20"", ""B5C3_NODE_21"", ""B5C3_NODE_18""]",3,53.73318021532422,historical_cpu_model,,
+historical_strict20,w2/K3,w2,3,StandaloneTopK,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,48,"[""B5C3_NODE_20"", ""B5C3_NODE_21"", ""B5C3_NODE_18""]",3,53.73318021532422,historical_cpu_model,,
+historical_strict20,w2/K3,w2,3,PCB,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,49,"[""B5C3_NODE_25"", ""B5C3_NODE_27"", ""B5C3_NODE_22""]",3,139.62076940728127,historical_cpu_model,,
+historical_strict20,w2/K3,w2,3,LDR,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,50,"[""B5C3_NODE_25"", ""B5C3_NODE_27"", ""B5C3_NODE_22""]",3,139.62076940728127,historical_cpu_model,,
+historical_strict20,w2/K4,w2,4,Exact,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,51,"[""B5C3_NODE_22"", ""B5C3_NODE_24"", ""B5C3_NODE_25"", ""B5C3_NODE_27""]",4,0.0,historical_cpu_model,,
+historical_strict20,w2/K4,w2,4,Greedy,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,52,"[""B5C3_NODE_20"", ""B5C3_NODE_21"", ""B5C3_NODE_18"", ""B5C3_NODE_25""]",4,34.17701910054297,historical_cpu_model,,
+historical_strict20,w2/K4,w2,4,Greedy+1-Swap,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,53,"[""B5C3_NODE_22"", ""B5C3_NODE_24"", ""B5C3_NODE_25"", ""B5C3_NODE_27""]",4,0.0,historical_cpu_model,,
+historical_strict20,w2/K4,w2,4,WFC,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,54,"[""B5C3_NODE_20"", ""B5C3_NODE_21"", ""B5C3_NODE_18"", ""B5C3_NODE_25""]",4,34.17701910054297,historical_cpu_model,,
+historical_strict20,w2/K4,w2,4,StandaloneTopK,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,55,"[""B5C3_NODE_20"", ""B5C3_NODE_21"", ""B5C3_NODE_18"", ""B5C3_NODE_25""]",4,34.17701910054297,historical_cpu_model,,
+historical_strict20,w2/K4,w2,4,PCB,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,56,"[""B5C3_NODE_25"", ""B5C3_NODE_27"", ""B5C3_NODE_22"", ""B5C3_NODE_24""]",4,0.0,historical_cpu_model,,
+historical_strict20,w2/K4,w2,4,LDR,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,57,"[""B5C3_NODE_25"", ""B5C3_NODE_27"", ""B5C3_NODE_22"", ""B5C3_NODE_24""]",4,0.0,historical_cpu_model,,
+historical_strict20,w3/K1,w3,1,Exact,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,58,"[""B5C3_NODE_20""]",1,185.82030888572876,historical_cpu_model,,
+historical_strict20,w3/K1,w3,1,Greedy,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,59,"[""B5C3_NODE_20""]",1,185.82030888572876,historical_cpu_model,,
+historical_strict20,w3/K1,w3,1,Greedy+1-Swap,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,60,"[""B5C3_NODE_20""]",1,185.82030888572876,historical_cpu_model,,
+historical_strict20,w3/K1,w3,1,WFC,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,61,"[""B5C3_NODE_20""]",1,185.82030888572876,historical_cpu_model,,
+historical_strict20,w3/K1,w3,1,StandaloneTopK,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,62,"[""B5C3_NODE_20""]",1,185.82030888572876,historical_cpu_model,,
+historical_strict20,w3/K1,w3,1,PCB,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,63,"[""B5C3_NODE_25""]",1,405.3262861798579,historical_cpu_model,,
+historical_strict20,w3/K1,w3,1,LDR,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,64,"[""B5C3_NODE_25""]",1,405.3262861798579,historical_cpu_model,,
+historical_strict20,w3/K2,w3,2,Exact,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,65,"[""B5C3_NODE_24"", ""B5C3_NODE_27""]",2,25.559189928624576,historical_cpu_model,,
+historical_strict20,w3/K2,w3,2,Greedy,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,66,"[""B5C3_NODE_20"", ""B5C3_NODE_24""]",2,103.25149217832282,historical_cpu_model,,
+historical_strict20,w3/K2,w3,2,Greedy+1-Swap,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,67,"[""B5C3_NODE_24"", ""B5C3_NODE_27""]",2,25.559189928624576,historical_cpu_model,,
+historical_strict20,w3/K2,w3,2,WFC,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,68,"[""B5C3_NODE_20"", ""B5C3_NODE_24""]",2,103.25149217832282,historical_cpu_model,,
+historical_strict20,w3/K2,w3,2,StandaloneTopK,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,69,"[""B5C3_NODE_20"", ""B5C3_NODE_24""]",2,103.25149217832282,historical_cpu_model,,
+historical_strict20,w3/K2,w3,2,PCB,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,70,"[""B5C3_NODE_25"", ""B5C3_NODE_22""]",2,263.2545255599126,historical_cpu_model,,
+historical_strict20,w3/K2,w3,2,LDR,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,71,"[""B5C3_NODE_25"", ""B5C3_NODE_22""]",2,263.2545255599126,historical_cpu_model,,
+historical_strict20,w3/K3,w3,3,Exact,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,72,"[""B5C3_NODE_24"", ""B5C3_NODE_25"", ""B5C3_NODE_27""]",3,10.909073434608953,historical_cpu_model,,
+historical_strict20,w3/K3,w3,3,Greedy,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,73,"[""B5C3_NODE_20"", ""B5C3_NODE_24"", ""B5C3_NODE_27""]",3,25.559189928624576,historical_cpu_model,,
+historical_strict20,w3/K3,w3,3,Greedy+1-Swap,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,74,"[""B5C3_NODE_24"", ""B5C3_NODE_25"", ""B5C3_NODE_27""]",3,10.909073434608953,historical_cpu_model,,
+historical_strict20,w3/K3,w3,3,WFC,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,75,"[""B5C3_NODE_20"", ""B5C3_NODE_24"", ""B5C3_NODE_27""]",3,25.559189928624576,historical_cpu_model,,
+historical_strict20,w3/K3,w3,3,StandaloneTopK,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,76,"[""B5C3_NODE_20"", ""B5C3_NODE_24"", ""B5C3_NODE_18""]",3,103.25149217832282,historical_cpu_model,,
+historical_strict20,w3/K3,w3,3,PCB,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,77,"[""B5C3_NODE_25"", ""B5C3_NODE_22"", ""B5C3_NODE_24""]",3,130.97614381805928,historical_cpu_model,,
+historical_strict20,w3/K3,w3,3,LDR,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,78,"[""B5C3_NODE_25"", ""B5C3_NODE_22"", ""B5C3_NODE_24""]",3,130.97614381805928,historical_cpu_model,,
+historical_strict20,w3/K4,w3,4,Exact,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,79,"[""B5C3_NODE_22"", ""B5C3_NODE_24"", ""B5C3_NODE_25"", ""B5C3_NODE_27""]",4,1.1428536413433266,historical_cpu_model,,
+historical_strict20,w3/K4,w3,4,Greedy,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,80,"[""B5C3_NODE_20"", ""B5C3_NODE_24"", ""B5C3_NODE_27"", ""B5C3_NODE_25""]",4,10.909073434608953,historical_cpu_model,,
+historical_strict20,w3/K4,w3,4,Greedy+1-Swap,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,81,"[""B5C3_NODE_22"", ""B5C3_NODE_24"", ""B5C3_NODE_25"", ""B5C3_NODE_27""]",4,1.1428536413433266,historical_cpu_model,,
+historical_strict20,w3/K4,w3,4,WFC,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,82,"[""B5C3_NODE_20"", ""B5C3_NODE_24"", ""B5C3_NODE_27"", ""B5C3_NODE_25""]",4,10.909073434608953,historical_cpu_model,,
+historical_strict20,w3/K4,w3,4,StandaloneTopK,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,83,"[""B5C3_NODE_20"", ""B5C3_NODE_24"", ""B5C3_NODE_18"", ""B5C3_NODE_27""]",4,25.559189928624576,historical_cpu_model,,
+historical_strict20,w3/K4,w3,4,PCB,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,84,"[""B5C3_NODE_25"", ""B5C3_NODE_22"", ""B5C3_NODE_24"", ""B5C3_NODE_27""]",4,1.1428536413433266,historical_cpu_model,,
+historical_strict20,w3/K4,w3,4,LDR,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,85,"[""B5C3_NODE_25"", ""B5C3_NODE_22"", ""B5C3_NODE_24"", ""B5C3_NODE_27""]",4,1.1428536413433266,historical_cpu_model,,
+historical_strict20,w4/K1,w4,1,Exact,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,86,"[""B5C3_NODE_20""]",1,205.34472391246481,historical_cpu_model,,
+historical_strict20,w4/K1,w4,1,Greedy,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,87,"[""B5C3_NODE_20""]",1,205.34472391246481,historical_cpu_model,,
+historical_strict20,w4/K1,w4,1,Greedy+1-Swap,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,88,"[""B5C3_NODE_20""]",1,205.34472391246481,historical_cpu_model,,
+historical_strict20,w4/K1,w4,1,WFC,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,89,"[""B5C3_NODE_20""]",1,205.34472391246481,historical_cpu_model,,
+historical_strict20,w4/K1,w4,1,StandaloneTopK,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,90,"[""B5C3_NODE_20""]",1,205.34472391246481,historical_cpu_model,,
+historical_strict20,w4/K1,w4,1,PCB,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,91,"[""B5C3_NODE_27""]",1,419.98109268480107,historical_cpu_model,,
+historical_strict20,w4/K1,w4,1,LDR,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,92,"[""B5C3_NODE_27""]",1,419.98109268480107,historical_cpu_model,,
+historical_strict20,w4/K2,w4,2,Exact,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,93,"[""B5C3_NODE_21"", ""B5C3_NODE_24""]",2,45.066823898798724,historical_cpu_model,,
+historical_strict20,w4/K2,w4,2,Greedy,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,94,"[""B5C3_NODE_20"", ""B5C3_NODE_24""]",2,122.77541955042372,historical_cpu_model,,
+historical_strict20,w4/K2,w4,2,Greedy+1-Swap,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,95,"[""B5C3_NODE_21"", ""B5C3_NODE_24""]",2,45.066823898798724,historical_cpu_model,,
+historical_strict20,w4/K2,w4,2,WFC,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,96,"[""B5C3_NODE_20"", ""B5C3_NODE_24""]",2,122.77541955042372,historical_cpu_model,,
+historical_strict20,w4/K2,w4,2,StandaloneTopK,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,97,"[""B5C3_NODE_20"", ""B5C3_NODE_24""]",2,122.77541955042372,historical_cpu_model,,
+historical_strict20,w4/K2,w4,2,PCB,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,98,"[""B5C3_NODE_27"", ""B5C3_NODE_25""]",2,275.4568582566761,historical_cpu_model,,
+historical_strict20,w4/K2,w4,2,LDR,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,99,"[""B5C3_NODE_27"", ""B5C3_NODE_25""]",2,275.4568582566761,historical_cpu_model,,
+historical_strict20,w4/K3,w4,3,Exact,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,100,"[""B5C3_NODE_24"", ""B5C3_NODE_25"", ""B5C3_NODE_27""]",3,10.871357981970599,historical_cpu_model,,
+historical_strict20,w4/K3,w4,3,Greedy,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,101,"[""B5C3_NODE_20"", ""B5C3_NODE_24"", ""B5C3_NODE_21""]",3,45.066823898798724,historical_cpu_model,,
+historical_strict20,w4/K3,w4,3,Greedy+1-Swap,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,102,"[""B5C3_NODE_24"", ""B5C3_NODE_25"", ""B5C3_NODE_27""]",3,10.871357981970599,historical_cpu_model,,
+historical_strict20,w4/K3,w4,3,WFC,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,103,"[""B5C3_NODE_20"", ""B5C3_NODE_24"", ""B5C3_NODE_21""]",3,45.066823898798724,historical_cpu_model,,
+historical_strict20,w4/K3,w4,3,StandaloneTopK,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,104,"[""B5C3_NODE_20"", ""B5C3_NODE_24"", ""B5C3_NODE_21""]",3,45.066823898798724,historical_cpu_model,,
+historical_strict20,w4/K3,w4,3,PCB,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,105,"[""B5C3_NODE_27"", ""B5C3_NODE_25"", ""B5C3_NODE_22""]",3,133.3850976367308,historical_cpu_model,,
+historical_strict20,w4/K3,w4,3,LDR,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,106,"[""B5C3_NODE_27"", ""B5C3_NODE_25"", ""B5C3_NODE_22""]",3,133.3850976367308,historical_cpu_model,,
+historical_strict20,w4/K4,w4,4,Exact,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,107,"[""B5C3_NODE_22"", ""B5C3_NODE_24"", ""B5C3_NODE_25"", ""B5C3_NODE_27""]",4,1.1051381887049732,historical_cpu_model,,
+historical_strict20,w4/K4,w4,4,Greedy,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,108,"[""B5C3_NODE_20"", ""B5C3_NODE_24"", ""B5C3_NODE_21"", ""B5C3_NODE_27""]",4,25.521474475986224,historical_cpu_model,,
+historical_strict20,w4/K4,w4,4,Greedy+1-Swap,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,109,"[""B5C3_NODE_22"", ""B5C3_NODE_24"", ""B5C3_NODE_25"", ""B5C3_NODE_27""]",4,1.1051381887049732,historical_cpu_model,,
+historical_strict20,w4/K4,w4,4,WFC,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,110,"[""B5C3_NODE_20"", ""B5C3_NODE_24"", ""B5C3_NODE_21"", ""B5C3_NODE_27""]",4,25.521474475986224,historical_cpu_model,,
+historical_strict20,w4/K4,w4,4,StandaloneTopK,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,111,"[""B5C3_NODE_20"", ""B5C3_NODE_24"", ""B5C3_NODE_21"", ""B5C3_NODE_18""]",4,45.066823898798724,historical_cpu_model,,
+historical_strict20,w4/K4,w4,4,PCB,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,112,"[""B5C3_NODE_27"", ""B5C3_NODE_25"", ""B5C3_NODE_22"", ""B5C3_NODE_24""]",4,1.1051381887049732,historical_cpu_model,,
+historical_strict20,w4/K4,w4,4,LDR,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,113,"[""B5C3_NODE_27"", ""B5C3_NODE_25"", ""B5C3_NODE_22"", ""B5C3_NODE_24""]",4,1.1051381887049732,historical_cpu_model,,
+historical_strict20,b5-c4/K1,b5-c4,1,Exact,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,114,"[""B5C3_NODE_20""]",1,228.05481335524232,historical_cpu_model,,
+historical_strict20,b5-c4/K1,b5-c4,1,Greedy,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,115,"[""B5C3_NODE_20""]",1,228.05481335524232,historical_cpu_model,,
+historical_strict20,b5-c4/K1,b5-c4,1,Greedy+1-Swap,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,116,"[""B5C3_NODE_20""]",1,228.05481335524232,historical_cpu_model,,
+historical_strict20,b5-c4/K1,b5-c4,1,WFC,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,117,"[""B5C3_NODE_20""]",1,228.05481335524232,historical_cpu_model,,
+historical_strict20,b5-c4/K1,b5-c4,1,StandaloneTopK,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,118,"[""B5C3_NODE_20""]",1,228.05481335524232,historical_cpu_model,,
+historical_strict20,b5-c4/K1,b5-c4,1,PCB,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,119,"[""B5C3_NODE_22""]",1,435.3621410255414,historical_cpu_model,,
+historical_strict20,b5-c4/K1,b5-c4,1,LDR,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,120,"[""B5C3_NODE_22""]",1,435.3621410255414,historical_cpu_model,,
+historical_strict20,b5-c4/K2,b5-c4,2,Exact,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,121,"[""B5C3_NODE_18"", ""B5C3_NODE_27""]",2,48.228728759089606,historical_cpu_model,,
+historical_strict20,b5-c4/K2,b5-c4,2,Greedy,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,122,"[""B5C3_NODE_20"", ""B5C3_NODE_18""]",2,130.8030838298517,historical_cpu_model,,
+historical_strict20,b5-c4/K2,b5-c4,2,Greedy+1-Swap,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,123,"[""B5C3_NODE_18"", ""B5C3_NODE_27""]",2,48.228728759089606,historical_cpu_model,,
+historical_strict20,b5-c4/K2,b5-c4,2,WFC,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,124,"[""B5C3_NODE_20"", ""B5C3_NODE_18""]",2,130.8030838298517,historical_cpu_model,,
+historical_strict20,b5-c4/K2,b5-c4,2,StandaloneTopK,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,125,"[""B5C3_NODE_20"", ""B5C3_NODE_18""]",2,130.8030838298517,historical_cpu_model,,
+historical_strict20,b5-c4/K2,b5-c4,2,PCB,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,126,"[""B5C3_NODE_22"", ""B5C3_NODE_24""]",2,281.0131854095414,historical_cpu_model,,
+historical_strict20,b5-c4/K2,b5-c4,2,LDR,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,127,"[""B5C3_NODE_22"", ""B5C3_NODE_24""]",2,281.0131854095414,historical_cpu_model,,
+historical_strict20,b5-c4/K3,b5-c4,3,Exact,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,128,"[""B5C3_NODE_22"", ""B5C3_NODE_24"", ""B5C3_NODE_27""]",3,16.411344606620858,historical_cpu_model,,
+historical_strict20,b5-c4/K3,b5-c4,3,Greedy,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,129,"[""B5C3_NODE_20"", ""B5C3_NODE_18"", ""B5C3_NODE_27""]",3,48.228728759089606,historical_cpu_model,,
+historical_strict20,b5-c4/K3,b5-c4,3,Greedy+1-Swap,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,130,"[""B5C3_NODE_22"", ""B5C3_NODE_24"", ""B5C3_NODE_27""]",3,16.411344606620858,historical_cpu_model,,
+historical_strict20,b5-c4/K3,b5-c4,3,WFC,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,131,"[""B5C3_NODE_20"", ""B5C3_NODE_18"", ""B5C3_NODE_27""]",3,48.228728759089606,historical_cpu_model,,
+historical_strict20,b5-c4/K3,b5-c4,3,StandaloneTopK,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,132,"[""B5C3_NODE_20"", ""B5C3_NODE_18"", ""B5C3_NODE_27""]",3,48.228728759089606,historical_cpu_model,,
+historical_strict20,b5-c4/K3,b5-c4,3,PCB,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,133,"[""B5C3_NODE_22"", ""B5C3_NODE_24"", ""B5C3_NODE_25""]",3,134.0349945777211,historical_cpu_model,,
+historical_strict20,b5-c4/K3,b5-c4,3,LDR,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,134,"[""B5C3_NODE_22"", ""B5C3_NODE_24"", ""B5C3_NODE_25""]",3,134.0349945777211,historical_cpu_model,,
+historical_strict20,b5-c4/K4,b5-c4,4,Exact,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,135,"[""B5C3_NODE_22"", ""B5C3_NODE_24"", ""B5C3_NODE_25"", ""B5C3_NODE_27""]",4,1.7531193436286698,historical_cpu_model,,
+historical_strict20,b5-c4/K4,b5-c4,4,Greedy,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,136,"[""B5C3_NODE_20"", ""B5C3_NODE_18"", ""B5C3_NODE_27"", ""B5C3_NODE_22""]",4,31.09389617654273,historical_cpu_model,,
+historical_strict20,b5-c4/K4,b5-c4,4,Greedy+1-Swap,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,137,"[""B5C3_NODE_22"", ""B5C3_NODE_24"", ""B5C3_NODE_25"", ""B5C3_NODE_27""]",4,1.7531193436286698,historical_cpu_model,,
+historical_strict20,b5-c4/K4,b5-c4,4,WFC,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,138,"[""B5C3_NODE_20"", ""B5C3_NODE_18"", ""B5C3_NODE_27"", ""B5C3_NODE_22""]",4,31.09389617654273,historical_cpu_model,,
+historical_strict20,b5-c4/K4,b5-c4,4,StandaloneTopK,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,139,"[""B5C3_NODE_20"", ""B5C3_NODE_18"", ""B5C3_NODE_27"", ""B5C3_NODE_21""]",4,48.228728759089606,historical_cpu_model,,
+historical_strict20,b5-c4/K4,b5-c4,4,PCB,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,140,"[""B5C3_NODE_22"", ""B5C3_NODE_24"", ""B5C3_NODE_25"", ""B5C3_NODE_27""]",4,1.7531193436286698,historical_cpu_model,,
+historical_strict20,b5-c4/K4,b5-c4,4,LDR,artifacts/frozen_cpu_snapshots/historical_policy_results.csv,141,"[""B5C3_NODE_22"", ""B5C3_NODE_24"", ""B5C3_NODE_25"", ""B5C3_NODE_27""]",4,1.7531193436286698,historical_cpu_model,,
+rename_cpu21,w1/K1,w1,1,RecurKeep,validation/recurkeep_rename/cpu_comparison.csv,2,"[""B5C3_NODE_20""]",1,223.84222283376562,historical_cpu_model,7,Exact
+rename_cpu21,w1/K1,w1,1,Marginal Greedy,validation/recurkeep_rename/cpu_comparison.csv,3,"[""B5C3_NODE_20""]",1,223.84222283376562,historical_cpu_model,7,Marginal Greedy
+rename_cpu21,w1/K1,w1,1,Independent Top-K,validation/recurkeep_rename/cpu_comparison.csv,4,"[""B5C3_NODE_20""]",1,223.84222283376562,historical_cpu_model,7,Independent Top-K
+rename_cpu21,w1/K2,w1,2,RecurKeep,validation/recurkeep_rename/cpu_comparison.csv,5,"[""B5C3_NODE_18"", ""B5C3_NODE_21""]",2,53.77075886917578,historical_cpu_model,7,Exact
+rename_cpu21,w1/K2,w1,2,Marginal Greedy,validation/recurkeep_rename/cpu_comparison.csv,6,"[""B5C3_NODE_20"", ""B5C3_NODE_21""]",2,126.590493308375,historical_cpu_model,7,Marginal Greedy
+rename_cpu21,w1/K2,w1,2,Independent Top-K,validation/recurkeep_rename/cpu_comparison.csv,7,"[""B5C3_NODE_20"", ""B5C3_NODE_21""]",2,126.590493308375,historical_cpu_model,7,Independent Top-K
+rename_cpu21,w1/K3,w1,3,RecurKeep,validation/recurkeep_rename/cpu_comparison.csv,8,"[""B5C3_NODE_18"", ""B5C3_NODE_25"", ""B5C3_NODE_27""]",3,21.95337471670703,historical_cpu_model,7,Exact
+rename_cpu21,w1/K3,w1,3,Marginal Greedy,validation/recurkeep_rename/cpu_comparison.csv,9,"[""B5C3_NODE_20"", ""B5C3_NODE_21"", ""B5C3_NODE_18""]",3,53.77075886917578,historical_cpu_model,7,Marginal Greedy
+rename_cpu21,w1/K3,w1,3,Independent Top-K,validation/recurkeep_rename/cpu_comparison.csv,10,"[""B5C3_NODE_20"", ""B5C3_NODE_21"", ""B5C3_NODE_18""]",3,53.77075886917578,historical_cpu_model,7,Independent Top-K
+rename_cpu21,w1/K4,w1,4,RecurKeep,validation/recurkeep_rename/cpu_comparison.csv,11,"[""B5C3_NODE_22"", ""B5C3_NODE_24"", ""B5C3_NODE_25"", ""B5C3_NODE_27""]",4,0.0,historical_cpu_model,7,Exact
+rename_cpu21,w1/K4,w1,4,Marginal Greedy,validation/recurkeep_rename/cpu_comparison.csv,12,"[""B5C3_NODE_20"", ""B5C3_NODE_21"", ""B5C3_NODE_18"", ""B5C3_NODE_27""]",4,36.63592628662891,historical_cpu_model,7,Marginal Greedy
+rename_cpu21,w1/K4,w1,4,Independent Top-K,validation/recurkeep_rename/cpu_comparison.csv,13,"[""B5C3_NODE_20"", ""B5C3_NODE_21"", ""B5C3_NODE_18"", ""B5C3_NODE_27""]",4,36.63592628662891,historical_cpu_model,7,Independent Top-K
+rename_cpu21,w2/K1,w2,1,RecurKeep,validation/recurkeep_rename/cpu_comparison.csv,14,"[""B5C3_NODE_20""]",1,214.0196428706719,historical_cpu_model,7,Exact
+rename_cpu21,w2/K1,w2,1,Marginal Greedy,validation/recurkeep_rename/cpu_comparison.csv,15,"[""B5C3_NODE_20""]",1,214.0196428706719,historical_cpu_model,7,Marginal Greedy
+rename_cpu21,w2/K1,w2,1,Independent Top-K,validation/recurkeep_rename/cpu_comparison.csv,16,"[""B5C3_NODE_20""]",1,214.0196428706719,historical_cpu_model,7,Independent Top-K
+rename_cpu21,w2/K2,w2,2,RecurKeep,validation/recurkeep_rename/cpu_comparison.csv,17,"[""B5C3_NODE_18"", ""B5C3_NODE_21""]",2,53.73318021532422,historical_cpu_model,7,Exact
+rename_cpu21,w2/K2,w2,2,Marginal Greedy,validation/recurkeep_rename/cpu_comparison.csv,18,"[""B5C3_NODE_20"", ""B5C3_NODE_21""]",2,131.43128514538674,historical_cpu_model,7,Marginal Greedy
+rename_cpu21,w2/K2,w2,2,Independent Top-K,validation/recurkeep_rename/cpu_comparison.csv,19,"[""B5C3_NODE_20"", ""B5C3_NODE_21""]",2,131.43128514538674,historical_cpu_model,7,Independent Top-K
+rename_cpu21,w2/K3,w2,3,RecurKeep,validation/recurkeep_rename/cpu_comparison.csv,20,"[""B5C3_NODE_18"", ""B5C3_NODE_25"", ""B5C3_NODE_27""]",3,21.965537870171875,historical_cpu_model,7,Exact
+rename_cpu21,w2/K3,w2,3,Marginal Greedy,validation/recurkeep_rename/cpu_comparison.csv,21,"[""B5C3_NODE_20"", ""B5C3_NODE_21"", ""B5C3_NODE_18""]",3,53.73318021532422,historical_cpu_model,7,Marginal Greedy
+rename_cpu21,w2/K3,w2,3,Independent Top-K,validation/recurkeep_rename/cpu_comparison.csv,22,"[""B5C3_NODE_20"", ""B5C3_NODE_21"", ""B5C3_NODE_18""]",3,53.73318021532422,historical_cpu_model,7,Independent Top-K
+rename_cpu21,w2/K4,w2,4,RecurKeep,validation/recurkeep_rename/cpu_comparison.csv,23,"[""B5C3_NODE_22"", ""B5C3_NODE_24"", ""B5C3_NODE_25"", ""B5C3_NODE_27""]",4,0.0,historical_cpu_model,7,Exact
+rename_cpu21,w2/K4,w2,4,Marginal Greedy,validation/recurkeep_rename/cpu_comparison.csv,24,"[""B5C3_NODE_20"", ""B5C3_NODE_21"", ""B5C3_NODE_18"", ""B5C3_NODE_25""]",4,34.17701910054297,historical_cpu_model,7,Marginal Greedy
+rename_cpu21,w2/K4,w2,4,Independent Top-K,validation/recurkeep_rename/cpu_comparison.csv,25,"[""B5C3_NODE_20"", ""B5C3_NODE_21"", ""B5C3_NODE_18"", ""B5C3_NODE_25""]",4,34.17701910054297,historical_cpu_model,7,Independent Top-K
+rename_cpu21,w3/K1,w3,1,RecurKeep,validation/recurkeep_rename/cpu_comparison.csv,26,"[""B5C3_NODE_20""]",1,185.82030888572876,historical_cpu_model,7,Exact
+rename_cpu21,w3/K1,w3,1,Marginal Greedy,validation/recurkeep_rename/cpu_comparison.csv,27,"[""B5C3_NODE_20""]",1,185.82030888572876,historical_cpu_model,7,Marginal Greedy
+rename_cpu21,w3/K1,w3,1,Independent Top-K,validation/recurkeep_rename/cpu_comparison.csv,28,"[""B5C3_NODE_20""]",1,185.82030888572876,historical_cpu_model,7,Independent Top-K
+rename_cpu21,w3/K2,w3,2,RecurKeep,validation/recurkeep_rename/cpu_comparison.csv,29,"[""B5C3_NODE_24"", ""B5C3_NODE_27""]",2,25.559189928624576,historical_cpu_model,7,Exact
+rename_cpu21,w3/K2,w3,2,Marginal Greedy,validation/recurkeep_rename/cpu_comparison.csv,30,"[""B5C3_NODE_20"", ""B5C3_NODE_24""]",2,103.25149217832282,historical_cpu_model,7,Marginal Greedy
+rename_cpu21,w3/K2,w3,2,Independent Top-K,validation/recurkeep_rename/cpu_comparison.csv,31,"[""B5C3_NODE_20"", ""B5C3_NODE_24""]",2,103.25149217832282,historical_cpu_model,7,Independent Top-K
+rename_cpu21,w3/K3,w3,3,RecurKeep,validation/recurkeep_rename/cpu_comparison.csv,32,"[""B5C3_NODE_24"", ""B5C3_NODE_25"", ""B5C3_NODE_27""]",3,10.90907343460895,historical_cpu_model,7,Exact
+rename_cpu21,w3/K3,w3,3,Marginal Greedy,validation/recurkeep_rename/cpu_comparison.csv,33,"[""B5C3_NODE_20"", ""B5C3_NODE_24"", ""B5C3_NODE_27""]",3,25.559189928624576,historical_cpu_model,7,Marginal Greedy
+rename_cpu21,w3/K3,w3,3,Independent Top-K,validation/recurkeep_rename/cpu_comparison.csv,34,"[""B5C3_NODE_20"", ""B5C3_NODE_24"", ""B5C3_NODE_18""]",3,103.25149217832282,historical_cpu_model,7,Independent Top-K
+rename_cpu21,w3/K4,w3,4,RecurKeep,validation/recurkeep_rename/cpu_comparison.csv,35,"[""B5C3_NODE_22"", ""B5C3_NODE_24"", ""B5C3_NODE_25"", ""B5C3_NODE_27""]",4,1.1428536413433266,historical_cpu_model,7,Exact
+rename_cpu21,w3/K4,w3,4,Marginal Greedy,validation/recurkeep_rename/cpu_comparison.csv,36,"[""B5C3_NODE_20"", ""B5C3_NODE_24"", ""B5C3_NODE_27"", ""B5C3_NODE_25""]",4,10.90907343460895,historical_cpu_model,7,Marginal Greedy
+rename_cpu21,w3/K4,w3,4,Independent Top-K,validation/recurkeep_rename/cpu_comparison.csv,37,"[""B5C3_NODE_20"", ""B5C3_NODE_24"", ""B5C3_NODE_18"", ""B5C3_NODE_27""]",4,25.559189928624576,historical_cpu_model,7,Independent Top-K
+rename_cpu21,w4/K1,w4,1,RecurKeep,validation/recurkeep_rename/cpu_comparison.csv,38,"[""B5C3_NODE_20""]",1,205.34472391246481,historical_cpu_model,7,Exact
+rename_cpu21,w4/K1,w4,1,Marginal Greedy,validation/recurkeep_rename/cpu_comparison.csv,39,"[""B5C3_NODE_20""]",1,205.34472391246481,historical_cpu_model,7,Marginal Greedy
+rename_cpu21,w4/K1,w4,1,Independent Top-K,validation/recurkeep_rename/cpu_comparison.csv,40,"[""B5C3_NODE_20""]",1,205.34472391246481,historical_cpu_model,7,Independent Top-K
+rename_cpu21,w4/K2,w4,2,RecurKeep,validation/recurkeep_rename/cpu_comparison.csv,41,"[""B5C3_NODE_21"", ""B5C3_NODE_24""]",2,45.066823898798724,historical_cpu_model,7,Exact
+rename_cpu21,w4/K2,w4,2,Marginal Greedy,validation/recurkeep_rename/cpu_comparison.csv,42,"[""B5C3_NODE_20"", ""B5C3_NODE_24""]",2,122.77541955042372,historical_cpu_model,7,Marginal Greedy
+rename_cpu21,w4/K2,w4,2,Independent Top-K,validation/recurkeep_rename/cpu_comparison.csv,43,"[""B5C3_NODE_20"", ""B5C3_NODE_24""]",2,122.77541955042372,historical_cpu_model,7,Independent Top-K
+rename_cpu21,w4/K3,w4,3,RecurKeep,validation/recurkeep_rename/cpu_comparison.csv,44,"[""B5C3_NODE_24"", ""B5C3_NODE_25"", ""B5C3_NODE_27""]",3,10.871357981970599,historical_cpu_model,7,Exact
+rename_cpu21,w4/K3,w4,3,Marginal Greedy,validation/recurkeep_rename/cpu_comparison.csv,45,"[""B5C3_NODE_20"", ""B5C3_NODE_24"", ""B5C3_NODE_21""]",3,45.066823898798724,historical_cpu_model,7,Marginal Greedy
+rename_cpu21,w4/K3,w4,3,Independent Top-K,validation/recurkeep_rename/cpu_comparison.csv,46,"[""B5C3_NODE_20"", ""B5C3_NODE_24"", ""B5C3_NODE_21""]",3,45.066823898798724,historical_cpu_model,7,Independent Top-K
+rename_cpu21,w4/K4,w4,4,RecurKeep,validation/recurkeep_rename/cpu_comparison.csv,47,"[""B5C3_NODE_22"", ""B5C3_NODE_24"", ""B5C3_NODE_25"", ""B5C3_NODE_27""]",4,1.1051381887049732,historical_cpu_model,7,Exact
+rename_cpu21,w4/K4,w4,4,Marginal Greedy,validation/recurkeep_rename/cpu_comparison.csv,48,"[""B5C3_NODE_20"", ""B5C3_NODE_24"", ""B5C3_NODE_21"", ""B5C3_NODE_27""]",4,25.521474475986224,historical_cpu_model,7,Marginal Greedy
+rename_cpu21,w4/K4,w4,4,Independent Top-K,validation/recurkeep_rename/cpu_comparison.csv,49,"[""B5C3_NODE_20"", ""B5C3_NODE_24"", ""B5C3_NODE_21"", ""B5C3_NODE_18""]",4,45.066823898798724,historical_cpu_model,7,Independent Top-K
+rename_cpu21,b5c4/K1,b5c4,1,RecurKeep,validation/recurkeep_rename/cpu_comparison.csv,50,"[""B5C3_NODE_20""]",1,228.05481335524232,historical_cpu_model,7,Exact
+rename_cpu21,b5c4/K1,b5c4,1,Marginal Greedy,validation/recurkeep_rename/cpu_comparison.csv,51,"[""B5C3_NODE_20""]",1,228.05481335524232,historical_cpu_model,7,Marginal Greedy
+rename_cpu21,b5c4/K1,b5c4,1,Independent Top-K,validation/recurkeep_rename/cpu_comparison.csv,52,"[""B5C3_NODE_20""]",1,228.05481335524232,historical_cpu_model,7,Independent Top-K
+rename_cpu21,b5c4/K2,b5c4,2,RecurKeep,validation/recurkeep_rename/cpu_comparison.csv,53,"[""B5C3_NODE_18"", ""B5C3_NODE_27""]",2,48.228728759089606,historical_cpu_model,7,Exact
+rename_cpu21,b5c4/K2,b5c4,2,Marginal Greedy,validation/recurkeep_rename/cpu_comparison.csv,54,"[""B5C3_NODE_20"", ""B5C3_NODE_18""]",2,130.8030838298517,historical_cpu_model,7,Marginal Greedy
+rename_cpu21,b5c4/K2,b5c4,2,Independent Top-K,validation/recurkeep_rename/cpu_comparison.csv,55,"[""B5C3_NODE_20"", ""B5C3_NODE_18""]",2,130.8030838298517,historical_cpu_model,7,Independent Top-K
+rename_cpu21,b5c4/K3,b5c4,3,RecurKeep,validation/recurkeep_rename/cpu_comparison.csv,56,"[""B5C3_NODE_22"", ""B5C3_NODE_24"", ""B5C3_NODE_27""]",3,16.411344606620858,historical_cpu_model,7,Exact
+rename_cpu21,b5c4/K3,b5c4,3,Marginal Greedy,validation/recurkeep_rename/cpu_comparison.csv,57,"[""B5C3_NODE_20"", ""B5C3_NODE_18"", ""B5C3_NODE_27""]",3,48.228728759089606,historical_cpu_model,7,Marginal Greedy
+rename_cpu21,b5c4/K3,b5c4,3,Independent Top-K,validation/recurkeep_rename/cpu_comparison.csv,58,"[""B5C3_NODE_20"", ""B5C3_NODE_18"", ""B5C3_NODE_27""]",3,48.228728759089606,historical_cpu_model,7,Independent Top-K
+rename_cpu21,b5c4/K4,b5c4,4,RecurKeep,validation/recurkeep_rename/cpu_comparison.csv,59,"[""B5C3_NODE_22"", ""B5C3_NODE_24"", ""B5C3_NODE_25"", ""B5C3_NODE_27""]",4,1.7531193436286698,historical_cpu_model,7,Exact
+rename_cpu21,b5c4/K4,b5c4,4,Marginal Greedy,validation/recurkeep_rename/cpu_comparison.csv,60,"[""B5C3_NODE_20"", ""B5C3_NODE_18"", ""B5C3_NODE_27"", ""B5C3_NODE_22""]",4,31.09389617654273,historical_cpu_model,7,Marginal Greedy
+rename_cpu21,b5c4/K4,b5c4,4,Independent Top-K,validation/recurkeep_rename/cpu_comparison.csv,61,"[""B5C3_NODE_20"", ""B5C3_NODE_18"", ""B5C3_NODE_27"", ""B5C3_NODE_21""]",4,48.228728759089606,historical_cpu_model,7,Independent Top-K
+rename_cpu21,ck3/K3,ck3,3,RecurKeep,validation/recurkeep_rename/cpu_comparison.csv,62,"[""B5C3_NODE_57"", ""B5C3_NODE_56"", ""B5C3_NODE_55""]",3,154.34895561599998,historical_cpu_model,16,Marginal Greedy
+rename_cpu21,ck3/K3,ck3,3,Marginal Greedy,validation/recurkeep_rename/cpu_comparison.csv,63,"[""B5C3_NODE_57"", ""B5C3_NODE_56"", ""B5C3_NODE_55""]",3,154.34895561599998,historical_cpu_model,16,Marginal Greedy
+rename_cpu21,ck3/K3,ck3,3,Independent Top-K,validation/recurkeep_rename/cpu_comparison.csv,64,"[""B5C3_NODE_57"", ""B5C3_NODE_72"", ""B5C3_NODE_56""]",3,348.234011266,historical_cpu_model,16,Independent Top-K

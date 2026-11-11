@@ -1,0 +1,17 @@
+{
+  "scope": "Synthetic CPU-only example, not a captured runtime state or research result. All physical conditions are assumptions for this fixture.",
+  "cases": [
+    {
+      "name": "demo",
+      "file": "demo.json",
+      "budgets": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "epoch_sha256": "97d4855ddadd2926d6f41ee8822eb6fb1771b57ab492fb9d063ce9acf37b80d3"
+    }
+  ]
+}
